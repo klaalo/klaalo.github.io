@@ -11,7 +11,7 @@ author_gravatar:    5e91ce99cfb566f1ec553177edd55033 # Gravatar md5 hash
 twitter_username:   klaalo
 
 # Site Settings
-# baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
+baseurl:            "https://www.karilaalo.fi/" # Base URL must end WITHOUT a slash, default: ""
 permalink:          /notes/:title # Post permalink
 timezone:           Europe/Helsinki # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
