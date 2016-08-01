@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>External JS Demo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+
+        <script>
+            function loadExtJs (src) {
+                $(document.head).append('<script src="' + src + '"><///script>');
+            }
+            var extSrc = 'https://www.karilaalo.fi/misc/extJsDemo.js';
+        </script>
+
+    </head>
+    <body>
+
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>External JavaScript Demo page</h1>
+                </div>
+                <div  id="form" class="col-md-offset-3 col-md-9">
+                    <p>This is a simple login page to demonstrate security
+                    implications of third party javascript. Do not enter
+                    any sensitive information or real credentials.</p>
+                    <p>The form doesn't actually send entered credentials
+                    anywhere. Instead, this page initiates dynamic javascript
+                    file load. This external javascript can do whatever it
+                    likes with the information entered on the page, including
+                    user entered credentials on 
+                    the login form. This means that the external javascript
+                    can for example snoop login credentials and harvest
+                    them for later use.</p>
+                    <div class="alert alert-danger" role="alert">
+                        <p><strong>Note! </strong>Do not enter any sensitive
+                            information!</p>
+                    </div>
+                    <p>Try this:<ol>
+                        <li>First, enter imaginary credentials and click send.
+                        Nothing happens.</li>
+                        <li>Second, press the button "load external js". External
+                        file will be loaded.</li>
+                        <li>Click submit again.</li>
+                        <li>Take a look at the "control information box" below.</li>
+                    </ol>
+                    <p id="srcInfo"><button class="btn btn-primary" 
+                               onclick="loadExtJs(extSrc);"
+                               >load external js</button>
+                        <script>
+                            $('#srcInfo').append('Will load: ' +
+                                    '<a href="' + extSrc + '">' + extSrc + '</>');
+                        </script>
+                    </p>
+                    <p>Make note that the external javascript file could do
+                    anything with harvested information. It could send
+                    entered credentials to which ever server for later use.</p>
+                    <p>You can also follow the progress of file loads on the
+                    developer console of your browser. On Mac&amp;Safari, press alt-cmd-i.</p>
+                    <div class="form-group">
+                        <label class="control-label" for="username">Username</label>
+                        <input class="form-control" type="text" id="username"
+                               name="username" autofocus="autofocus"
+                               placeholder="Enter imaginary username" />
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" for="password">Password</label>
+                        <input class="form-control" type="password" id="password" />
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-primary btn-default" type="submit"
+                                id="submit">Send</button>
+                    </div>
+                </div>
+                <div class="col-md-offset-3 col-md-9">
+                    <pre id='ctrlBox'># Control information will be displayed here.
+</pre>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
