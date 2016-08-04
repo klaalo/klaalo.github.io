@@ -49,7 +49,13 @@ On palveluja, joihin salasanaton tunnistaminen ei vielä helposti sovellu. Harmi
 
 Sähköpostipalvelunkin tarjoamisessa salasanakannan suojaamisen ratkaisujen pohtimista parempi ratkaisu on ulkoistaa salasanoista huolehtiminen sellaiselle taholle, joka on jo ratkaissut niiden käsittelyyn liittyvät haasteet.
 
-Google on toteuttanut kaksivaiheisen tunnistamisen, jolla sallitaan pääsy käyttäjätiliin vain, jos käyttäjällä on toinen elementti (esim. fyysinen esine) sen lisäksi, että hänellä on tiedossa avain, jolla palvelu aukeaa (salasana). Google on ratkaissut myös salasanan palauttamisen.
+Google on toteuttanut kaksivaiheisen tunnistamisen, jolla sallitaan pääsy käyttäjätiliin vain, jos käyttäjällä on toinen elementti (esim. fyysinen esine) sen lisäksi, että hänellä on tiedossa avain, jolla palvelu aukeaa (salasana).
+
+Kaksivaiheinen tunnistaminen on tämän artikkelin käyttötarkoituksessa eduksi myös siinä, että se tekee mahdolliseksi sovelluskohtaiset salasanat. Käyttäjä voi määritellä sovelluksille irrallisia salasanoja. Sähköpostiohjelmalla voi olla eri salasana, kuin kalenterilla. Vaikka kalenterin salasana päätyisi vääriin käsiin ja pitää kuolettaa, tämä ei vaikuta sähköpostin toimintaan. Jokaiselle ulkoista tunnistamista vaativalle palvelulle voi määrittää erillisen salasanan.
+
+Sovellussalasanoja käytettäessä ohjelmille tai ulkoisille palveluille ei tarvitse luovuttaa sitä käyttäjän omaa henkilökohtaista salasanaa, jota hän itse käyttää kirjautuessaan henkilökohtaisesti Googlen palveluihin. Ne erottavat käyttäjän oman suoran toiminnan ohjelmallisesti käyttäjän puolesta suoritettavista toiminnoista. &lsqb;1&rsqb;
+
+Google on ratkaissut myös salasanan palauttamisen.
 
 Google	 varoittaa, jos käyttäjätiliin yritetään saada pääsy sellaisesta päätteestä tai paikasta, joka ei ole käyttäjälle tyypillistä. Käyttäjällä on mahdollisuus varhaisessa vaiheessa havaita ja estää oikeudeton pääsy käyttäjätilin resursseihin.
 
@@ -95,3 +101,5 @@ smtpd_recipient_restrictions =
 ## Googlen lisäksi muitakin mahdollisuuksia
 
 Sähköpostipalvelun tapauksessa mahdollisia ratkaisuja salasanojen ylläpidon ulkoistamiseen on Googlen lisäksi myös muita. Microsoft tarjoaa Outlook.com -sähköpostia ja Applen iCloud-palveluun sisältyy sähköposti ja IMAP-palvelu. Jos se soveltuu, oman sähköpostipalvelunsa pystyttäjä voi hyödyntää tunnistamiseen vaikka internetoperaattorinsa IMAP-palvelua, mutta tallentaa sähköpostit omaan IMAP-palvelimeen. Ennen operaattorin sähköpostipalvelun käyttöä, lue [tämä](suomalaisoperaattorit-eivat-suojaa-sahkoposteja).
+
+&lsqb;1&rsqb; Muokattu 4.8.2016 - lisätty sovellussalasanoista
