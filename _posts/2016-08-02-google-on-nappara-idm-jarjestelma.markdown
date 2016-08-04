@@ -53,7 +53,7 @@ Google on toteuttanut kaksivaiheisen tunnistamisen, jolla sallitaan pääsy käy
 
 Kaksivaiheinen tunnistaminen on tämän artikkelin käyttötarkoituksessa eduksi myös siinä, että se tekee mahdolliseksi sovelluskohtaiset salasanat. Käyttäjä voi määritellä sovelluksille irrallisia salasanoja. Sähköpostiohjelmalla voi olla eri salasana, kuin kalenterilla. Vaikka kalenterin salasana päätyisi vääriin käsiin ja pitää kuolettaa, tämä ei vaikuta sähköpostin toimintaan. Jokaiselle ulkoista tunnistamista vaativalle palvelulle voi määrittää erillisen salasanan.
 
-Sovellussalasanoja käytettäessä ohjelmille tai ulkoisille palveluille ei tarvitse luovuttaa sitä käyttäjän omaa henkilökohtaista salasanaa, jota hän itse käyttää kirjautuessaan henkilökohtaisesti Googlen palveluihin. Ne erottavat käyttäjän oman suoran toiminnan ohjelmallisesti käyttäjän puolesta suoritettavista toiminnoista. &lsqb;1&rsqb;
+Sovellussalasanoja käytettäessä ohjelmille tai ulkoisille palveluille ei tarvitse luovuttaa sitä käyttäjän omaa henkilökohtaista salasanaa, jota hän itse käyttää kirjautuessaan henkilökohtaisesti Googlen palveluihin. Ne erottavat käyttäjän oman suoran toiminnan ohjelmallisesti käyttäjän puolesta suoritettavista toiminnoista. [[1]](#note-1)
 
 Google on ratkaissut myös salasanan palauttamisen.
 
@@ -102,4 +102,5 @@ smtpd_recipient_restrictions =
 
 Sähköpostipalvelun tapauksessa mahdollisia ratkaisuja salasanojen ylläpidon ulkoistamiseen on Googlen lisäksi myös muita. Microsoft tarjoaa Outlook.com -sähköpostia ja Applen iCloud-palveluun sisältyy sähköposti ja IMAP-palvelu. Jos se soveltuu, oman sähköpostipalvelunsa pystyttäjä voi hyödyntää tunnistamiseen vaikka internetoperaattorinsa IMAP-palvelua, mutta tallentaa sähköpostit omaan IMAP-palvelimeen. Ennen operaattorin sähköpostipalvelun käyttöä, lue [tämä](suomalaisoperaattorit-eivat-suojaa-sahkoposteja).
 
-&lsqb;1&rsqb; Muokattu 4.8.2016 - lisätty sovellussalasanoista
+---
+_<a name='note-1'>[1]</a> Muokattu 4.8.2016 - lisätty sovellussalasanoista_
