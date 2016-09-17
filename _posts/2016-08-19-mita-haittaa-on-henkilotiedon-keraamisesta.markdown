@@ -77,8 +77,39 @@ Hollannin hallituksen neuvoa-antavan tieteellisen neuvoston (WRR) jäsen ja enti
 
 Hollannissa onkin säädetty erikseen profilointitiedon käyttämisestä. Esimerkiksi algoritmin tuottamaa analyysiä ei voi käyttää todisteena tuomioistuimessa.
 
+### Urkinta
+
+Henkilötietojen urkkiminen on Suomessa kansanhupia. Keväällä 2016 yli 50 poliisissa työskentelevää virkamiestä sai syytteen Anneli Auerin tietojen urkinnasta. Kymmenet poliisit olivat vuonna 2011 yrittäneet päästä katsomaan Auerin tietoja poliisin Patja-järjestelmästä.  [Lähde: HS](http://www.hs.fi/kotimaa/a1461031167679)
+
+Terveystiedot eivät ole sen enempää suojassa luvattomalta katselulta. Verkkohakujen perusteella tapaukset eivät ole niin yleisiä ehkä sen takia, että kehnojen tietojärjestelmien johdosta kiinnijäämisen riski on pienempi, kuin poliisin rekisterien luvattomassa käytössä. Tapauksia silti löytyy. 2015 syksyllä Poliisi käynnisti tutkinnan Etelä-Karjalassa yli 500 potilaan tietojen luvattomasta katselusta. [Lähde: Yle](http://yle.fi/uutiset/poliisitutkinta_potilastietojen_luvattomasta_katselusta_alkoi_etela-karjalassa/8241204)
+
+Jopa urkintaa karmivampaa on potilastietojen huolimaton käsittely. Keväällä 2016 HUS:n potilaspapereita löytyi roskalavalta vantaalaisen kerrostalon pihalta. [Lähde: HS](http://www.hs.fi/kaupunki/a1462365749072)
+
+Uteliaisuus on vahva voima, joka toisinaan oikein pakottaa ihmisen tekemään asioita, jotka itsekin kokee vääräksi. Erityisen helppoa ammattihenkilön on hakea järjestelmistä tietoja, kun kokee sen säännöistä huolimatta jollakin erityisellä perusteella oikeutetuksi. Kukapa ei tuntisi houkutusta hakea hyvän ystävän uuden poikaystävän taustatietoja rekistereistä tai selvittää uuden vuokralaisehdokkaan luotettavuutta?
+
+S-ryhmä [kertoo](http://yle.fi/uutiset/s-ryhma_alkaa_kerata_tarkempaa_tietoa_asiakkaista__kuluttajaliitto_tyrmistyi_nyt_mennaan_pitkalle_yksityiselaman_asioihin/9055737), että keräämäänsä ostodataan pääsee vain hyvin rajattu joukko S-ryhmän palveluksessa olevia työntekijöitä.
+
+Tietosuojavaltuutetun toimisto selvitti, miten kävi rikosjutuissa, joista oli pyydetty tietosuojavaltuutetun lausuntoa saman vuoden 2007 aikana. Selvityksestä kävi ilmi muun muassa, että henkilötietojen lainvastaiseen käsittelyyn syyllistyvät tavalliset työntekijät tai toimihenkilöt. Tyypillinen tietosuojavaltuutetulle tullut lausuntopyyntö kohdistui epäiltyyn henkilörekisteririkokseen, jossa työntekijä tai toimihenkilö oli käsitellyt henkilötietoja työtehtäviinsä liittymättömästä syystä. [Lähde: Tietosuoja-lehti](https://www.tietosuoja-lehti.fi/index.php?mid=2&pid=32&aid=2584)
+
+## Oikeus yksityisyyteen
+
+Oikeudesta yksityisyyteen säädetään ihmisoikeuksien yleismaailmallisen julistuksen 12. artiklassa. Yksityiselämän suojasta määritellään myös Suomen perustuslaissa. Se on voimallinen oikeushyvä, joka painaa vahvasti puntarissa, kun punnitaan rekisterinpitäjien perusteita henkilötietojen käsittelylle.
+
+Huolimatta siitä, miten vahvaksi oikeus yksityisyyteen on lainsäädännössä noteerattu, moni on nykypäivänä valmis luopumaan siitä yllättävän vähällä. S-ryhmä lupaa ostohyvitystä parhaimmillaan 5 % ostosten summasta, mutta harvassa taloudessa on varaa kuluttaa niin paljon, että saavuttaa parhaan luokan kuukauden ostokertymän hyvistysportaissa.
+
+S-ryhmän [bonustaulukon](https://www.s-kanava.fi/web/s/nain-bonus-kertyy) mukaan 400 €:n kuukausiostoilla ansaitsee 120 €:n arvosta bonusta vuodessa. Kun kulutat lähes 5 000 €, saat 120 € hyvitystä. 
+
+Mistä rahat asiakashyvitykseen saadaan? Tietenkin kuluttajalta, joka maksaa oman asiakashyvityksensä tuotteiden hinnoissa. Moni on valmis myymään osan yksityisyydestään asiakashyvityksellä, jonka voisi saada alennettuina hintoina yksityisyytensä säilyttäen.
+
+Joillekin luopuminen siitä osasta yksityisyyttä, jonka ostodatan keräämisellä menettää, tuntuu epämiellyttävältä. Heille edellä mainitut riskit tuntuvat todennäköisemmiltä ehkä sen takia, että heillä on omakohtaista kokemusta siitä, miten huolimattomasti tietoja yleisesti käsitellään.
+
 ## Hyödyt ylittävät riskit
 
-"Minulla ei ole mitään salattavaa", monet toteavat ja sallivat henkilötiedon keruun ilmeisistä riskeistä huolimatta. Tietojen kerääminen tuskin monelle tuottaakaan mitään haittaa koko heidän elämänsä aikana. Riskit realisoituvat ehkä vasta seuraavalle sukupolvelle, kun yhteiskunta entisestään muuttuu.
+"Minulla ei ole mitään salattavaa", monet toteavat ja sallivat henkilötiedon keruun ilmeisistä riskeistä huolimatta. Tietojen kerääminen tuskin monelle tuottaakaan suurta haittaa elämänsä aikana. Riskit realisoituvat ehkä vasta seuraavalle sukupolvelle, kun yhteiskunta entisestään muuttuu.
 
-Siinä vaiheessa, kun riskit relisoituvat, niistä kärsivä sukupolvi ei voi enää valita, vaan valinnan on tehnyt heidän vanhempansa samoin, kun sen raskaana olevan lukiolaistytön isän luottama kauppaketju kertoessaan tyttären raskaudesta hänen tahtomattaan.
+Siinä vaiheessa, kun riskit relisoituvat, niistä kärsivä sukupolvi ei voi enää valita, vaan valinnan on tehnyt heidän vanhempansa samoin, kun sen raskaana olevan lukiolaistytön isän käyttämä kauppaketju kertoessaan tyttären raskaudesta tämän tahtomatta.
+
+Vastikään realisoitui myös tapaus, jossa aikuisuuteen kasvava nuori nainen joutui haastamaan vanhempansa oikeuteen vaatiakseen omia kuviaan poistettavaksi sosiaalisesta mediasta. Naisen vanhemmat olivat lupaa kysymättä julkaisseet tyttärensä kuvia, jotka tämä itse koki nolostuttavaksi. [Lähde: Yle](http://yle.fi/uutiset/itavallassa_tytar_haastoi_vanhempansa_oikeuteen_lapsuuskuvista_facebookissa/9168260)
+
+---
+Muokattu 17.9.2016 - lisätty Urkinta ja Oikeus yksityisyyteen -kappaleet ja viimeisen kappaleen viittaus: "Tytär haastoi vanhempansa oikeuteen"
