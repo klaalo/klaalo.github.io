@@ -99,15 +99,19 @@ Huolimatta siitä, miten vahvaksi oikeus yksityisyyteen on lainsäädännössä 
 
 S-ryhmän [bonustaulukon](https://www.s-kanava.fi/web/s/nain-bonus-kertyy) mukaan 400 €:n kuukausiostoilla ansaitsee 120 €:n arvosta bonusta vuodessa. Kun kulutat lähes 5 000 €, saat 120 € hyvitystä. 
 
-Mistä rahat asiakashyvitykseen saadaan? Tietenkin kuluttajalta, joka maksaa oman asiakashyvityksensä tuotteiden hinnoissa. Moni on valmis myymään osan yksityisyydestään asiakashyvityksellä, jonka voisi saada alennettuina hintoina yksityisyytensä säilyttäen.
+Mistä rahat ostohyvitykseen saadaan? Tietenkin kuluttajalta, joka maksaa oman ostohyvityksensä tuotteiden hinnoissa. Moni on valmis myymään osan yksityisyydestään ostohyvityksellä, jonka voisi saada alennettuina hintoina yksityisyytensä säilyttäen.
 
 Joillekin luopuminen siitä osasta yksityisyyttä, jonka ostodatan keräämisellä menettää, tuntuu epämiellyttävältä. Heille edellä mainitut riskit tuntuvat todennäköisemmiltä ehkä sen takia, että heillä on omakohtaista kokemusta siitä, miten huolimattomasti tietoja yleisesti käsitellään.
 
+Kun valtaosa kuluttajista hiljaisesti hyväksyy tietojensa keräämisen, he tekevät yksityisyyden säilyttämisen vaikeammaksi niille, jotka sitä vaalivat. Kauppias voi argumentoida ostodatan keruuta sillä, että kritiikistä huolimatta valtaosa haluaa kerätä ostohyvityksensä. Hänen, joka hyväksyy tietojen keruun, on myöhäistä katua päätöstä sitten, kun on jo luopunut yksityisyydestään. Menetettyjä tietoja ei voi saada takaisin. Kun on joutunut asiakasprofiloinnin paaria-luokkaan, sieltä on vaikeaa, ellei mahdotonta päästä pois.
+
 ## Hyödyt ylittävät riskit
 
-"Minulla ei ole mitään salattavaa", monet toteavat ja sallivat henkilötiedon keruun ilmeisistä riskeistä huolimatta. Tietojen kerääminen tuskin monelle tuottaakaan suurta haittaa elämänsä aikana. Riskit realisoituvat ehkä vasta seuraavalle sukupolvelle, kun yhteiskunta entisestään muuttuu.
+"Minulla ei ole mitään salattavaa", monet toteavat ja sallivat henkilötiedon keruun ilmeisistä riskeistä huolimatta. Hyödyt tietojen keräämisestä ylittävät käsittelyyn liittyvät riskit. 
 
-Siinä vaiheessa, kun riskit relisoituvat, niistä kärsivä sukupolvi ei voi enää valita, vaan valinnan on tehnyt heidän vanhempansa samoin, kun sen raskaana olevan lukiolaistytön isän käyttämä kauppaketju kertoessaan tyttären raskaudesta tämän tahtomatta.
+Tietojen kerääminen tuskin monelle tuottaakaan suurta haittaa elämänsä aikana. Riskit realisoituvat ehkä vasta seuraavalle sukupolvelle, kun yhteiskunta entisestään muuttuu.
+
+Siinä vaiheessa, kun riskit relisoituvat, niistä kärsivä sukupolvi ei voi enää valita, vaan valinnan on tehnyt heidän vanhempansa. Niin teki raskaana olevan lukiolaistytön isän käyttämä kauppaketju kertoessaan tyttären raskaudesta tämän tahtomatta.
 
 Vastikään realisoitui myös tapaus, jossa aikuisuuteen kasvava nuori nainen joutui haastamaan vanhempansa oikeuteen vaatiakseen omia kuviaan poistettavaksi sosiaalisesta mediasta. Naisen vanhemmat olivat lupaa kysymättä julkaisseet tyttärensä kuvia, jotka tämä itse koki nolostuttavaksi. [Lähde: Yle](http://yle.fi/uutiset/itavallassa_tytar_haastoi_vanhempansa_oikeuteen_lapsuuskuvista_facebookissa/9168260)
 
