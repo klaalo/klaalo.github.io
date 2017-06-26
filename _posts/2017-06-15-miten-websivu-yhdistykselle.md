@@ -74,7 +74,7 @@ Vaikka toteutus siinä määrin staattinen, että artikkelit ovat yksittäisiä 
 
 ## Facebook Comments
 
-Facebookin [toteutus](https://developers.facebook.com/products/social-plugins/comments/) on vain yksi esimerkki tavasta liittää mille tahansa sivulle kommentointimahdollisuus. Toisen perinteisen vaihtoehdon vastaavasta toiminnallisuudesta tarjoaa myös esim. [Discus](https://disqus.com).
+Facebookin [toteutus](https://developers.facebook.com/products/social-plugins/comments/) on vain yksi esimerkki tavasta liittää mille tahansa sivulle kommentointimahdollisuus. Toisen perinteisen vaihtoehdon vastaavasta toiminnallisuudesta tarjoaa myös esim. [Disqus](https://disqus.com).
 
 Nämä siis ovat jokseenkin uudenaikaisia palveluja, jotka eivät vaadi kotisivulta juuri muuta, kuin mahdollisuuden liittää ulkopuolista Javascript-koodia sivulle.
 
