@@ -129,6 +129,8 @@ Heinäkuun puoleen väliin mennessä kesä 2017 on ollut tilastollisestikin poik
 
 Viileinäkin päivinä jäähdytystä enemmän ilmalämpöpumpusta on ollut etua huoneilman kuivaamisessa. Kesä on ollut myös sateinen ja huoneilman suhteellinen kosteus on ollut korkea. Ilmalämpöpumppu poistaa kosteutta ilmasta ja hieman kuivemmassa huoneilmassa on mukavampi oleskella – se ei tunnu niin tukalalta ja hiostavalta, kuin yleensä kesäsateella sisätiloissa. Raikkaasta ilmasta on ollut etua etenkin työpäivinä, kun tunkkainen olo ja hikoilu ei haittaa työtehtävään keskittymistä.
 
+Keväällä ja alkukesästä, kun ilma ulkona on riittävän viileää, sisäilman viilennykseen riittäisi tehokas tuuletus. Kesällä ulkona on elämää ja tuuletuksen mukana ulkoa kantautuu sisälle myös elämän äänet. Asumme lentomelualueen laidalla ja rakennuksen suunniteltu äänenvaimennus toteutuu vain, kun ikkunat on suljettuna. Toisinaan, erityisesti ilta-aikaan, on mukavaa, kun voi sulkea ikkunat ja kaupungin äänet huoneiston ulkopuolelle ja silti nauttia viileästä sisäilmasta jäähdytyslaitteen ansiosta.
+
 Ilmalämpumpusta on ollut myös yllättävä hauska hyöty lasitetun parvekkeen lämmittämiseen hetkellisesti kylminä kevätiltoina. Siinä, missä se siirtää liian lämmintä ilmaa sisältä ulos, se vastaavasti tarvittaessa hieman lämmittää parvekkeen viileää ilmaa, että siellä on mukavampi oleskella. Erillistä terassilämmitintä ei tarvita.
 
 ## Kustannus
