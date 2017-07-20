@@ -10,7 +10,7 @@ Jo edellisessä 2h+k huoneistossa harkitsin jäähdytyslaitetta. Huoneistossa ol
 Muutettuamme suurempaan ja aurinkoisempaan taloon teimme viimein päätöksen ilmalämpöpumpun hankkimisesta.
 
 {:.image}
-![Ilmalämpöpumppu yleiskuva kollaasi](https://storage.googleapis.com/misc-blobs/idp-overview-collage.jpg)
+![Ilmalämpöpumppu yleiskuva kollaasi](https://storage.googleapis.com/misc-blobs/ilp-overview-collage.jpg)
 
 {:.image-caption}
 Kollaasin pystykuvassa ilmalämpöpumpun sisäyksikkö, pienessä yläkuvassa ulkoyksikkö ilman koteloa ja alakuvassa kotelon suojaamana.
