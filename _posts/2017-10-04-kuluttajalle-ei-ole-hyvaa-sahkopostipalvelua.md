@@ -157,7 +157,7 @@ Lähettämistä varten kotikäyttäjä tarvitsee erillisen palvelimen, jolta vie
 
 Nykyään on helposti ja edullisesti hankittavissa virtuaalipalvelinkapasiteettia etenkin ulkomailta, mutta myös kotimaasta. Palvelinkapasiteetin hankkimisessa on pohdittava alustapalvelun luotettavuutta. Voiko palvelimen toimittajaan luottaa niin paljon, että uskaltaa välittää sähköpostinsa sen kautta? Onko palveluntarjoajalla rajoituksia sähköpostin välittämisessä? Alustapalvelun kotimaisuuteen luonnollisesti pätee, mitä aiemmassa kappaleessa pohdittiin sähköpostipalvelun kotimaisuudesta.
 
-## Web-hotellit ja hosting-yritykset
+### Web-hotellit ja hosting-yritykset
 
 Perinteisesti, kun haluttiin oma verkkotunnus tai omat verkkosivut, hankittiin web-hotellipaketti. Pakettiin kuului tietty määrä tietoliikennettä ja levytilaa kotisivuille. Niiden ohessa sai sähköpostipalvelun. Paketit ovat parhaimmillaan hyvin edullisia. Jopa 5 €:lla kuukaudessa voi saada kotisivupaketin, johon kuuluu sähköpostiosoitteita ja -laatikoita. Web-hotellipakettien yhteydessä on tietenkin mahdollista käyttää myös omia verkkotunnuksia.
 
