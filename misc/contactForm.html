@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<title>Yhteydenotto</title>
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@klaalo" />
+<meta name="twitter:title" content="Kari Laalo" />
+<meta name="twitter:description" content="" />
+
+<meta name="description" content="" />
+
+<link rel="icon" href="https://www.karilaalo.fi/assets/favicon.ico" />
+<link rel="apple-touch-icon" href="https://www.karilaalo.fi/assets/touch-icon.png" />
+<link rel="stylesheet" href="https://code.cdn.mozilla.net/fonts/fira.css" />
+<link rel="stylesheet" href="https://www.karilaalo.fi/assets/core.css" />
+<link rel="canonical" href="https://www.karilaalo.fi/" />
+<link rel="alternate" type="application/atom+xml" title="Kari Laalo" href="https://www.karilaalo.fi/feed.xml" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<link rel='stylesheet' href='https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css' />
+
+<style>
+.loader {
+    border: 6px solid #cacaca;
+    border-top: 6px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 6px;
+    height: 6px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+</style>
+
+    </head>
+    <body>
+
+<aside class="logo" style="position: relative;"> <a href="https://www.karilaalo.fi/"> <img src="https://www.gravatar.com/avatar/5e91ce99cfb566f1ec553177edd55033.png?s=80" class="gravatar" alt="profile image" /> </a> <span class="logo-prompt">Etusivulle</span></aside>
+<main>
+<section>
+   	<div class="col-md-12">
+			<h1>Yhteydenotto</h1>
+
+
+
+
+			<div class="col-md-6">
+	            <p>Oheisella lomakkeella voit lähettää viestin sivun omistajalle.
+	            Jos haluat, että sinuun otetaan yhteyttä, kirjoita viestiin yhteystietosi.</p>
+	            <p>Viestin yhteyteen liitetään tunnistetietoina IP-osoitteesi ja selaimesi
+	            lähettämät
+	            <a href="http://en.wikipedia.org/wiki/List_of_HTTP_header_fields">otsaketiedot</a>.
+	            Viesti näytetään sinulle kokonaisuudessaan lähettämisen jälkeen.
+	            Jos et halua lähettää näitä tunnistetietoja, älä käytä tätä lomaketta.</p>
+            </div>
+            <div class="col-md-6">
+                    <label class="control-label" for="message">Viesti</label>
+                    <textarea class="form-control" style="width: 100%" rows="25" id="message" name="message" autofocus>
+</textarea>
+                    <button class="btn btn-default" name="submit" id='submitBtn'>
+                    	Lähetä</button>
+            </div>
+         </div>
+</section>
+</main>
+
+<div id='dialog' style="dislpay: none;">
+    <p id='dialogTxt'></p>
+</div>
+
+
+<script type="text/javascript">
+  $(function() {
+    $('#dialog').dialog();
+    $('#dialog').dialog('close');
+  });
+
+  $('button').on('click', function(event) {
+    event.preventDefault();
+    if ($('textarea').val().length < 1) {
+      $('#dialogTxt').text('Tyhjää viestiä ei lähetetä.');
+      $('#dialog').dialog({
+        title: 'Virhe: tyhjä viesti'
+      });
+      $('.ui-icon-closethick').on('click', function() {
+        $('#dialog').dialog('close');
+      });
+      $('#dialog').dialog('open');
+      return;
+    };
+    $('textarea').prop('disabled', true);
+    $('button').prop('disabled', true);
+    $('#submitBtn').html('<div class="loader"></div>');
+    $.post('https://us-central1-klaalo-1162.cloudfunctions.net/formMailer',
+      { message: $('#message').val() }, function(data) {
+        if (data.status == 'sent') {
+          $('textarea').val(data.message);
+          $('#dialogTxt').text('Viesti lähetetty.');
+          $('#dialog').dialog({
+            title: 'Status: ' + data.status
+          });
+          $('.ui-icon-closethick').on('click', function() {
+            $('#dialog').dialog('close');
+          });
+          $('#dialog').dialog('open');
+        } else if (data.status == 'notSent' && data.reason == 'no tokens') {
+          $('#dialogTxt').text('Olet lähettänyt liian monta viestiä lyhyessä ajassa. Yritä myöhemmin uudelleen.');
+          $('#dialog').dialog({
+            title: 'Status: ' + data.status
+          });
+          $('.ui-icon-closethick').on('click', function() {
+            $('#dialog').dialog('close');
+          });
+          $('#dialog').dialog('open');
+
+        }
+        $('#submitBtn').text('Status: ' + data.status);
+    })
+      .fail(function (jxhr) {
+        $('#submitBtn').text('Error: ' + jxhr.responseJSON.error);
+      });
+  });
+</script>
+
+    </body>
+</html>
