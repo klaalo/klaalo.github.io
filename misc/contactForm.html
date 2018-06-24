@@ -101,6 +101,7 @@
     $('textarea').prop('disabled', true);
     $('button').prop('disabled', true);
     $('#submitBtn').html('<div class="loader"></div>');
+    //$.post('http://localhost:8010/klaalo-1162/us-central1/formMailer',
     $.post('https://us-central1-klaalo-1162.cloudfunctions.net/formMailer',
       { message: $('#message').val() }, function(data) {
         if (data.status == 'sent') {
@@ -127,7 +128,11 @@
         $('#submitBtn').text('Status: ' + data.status);
     })
       .fail(function (jxhr) {
-        $('#submitBtn').text('Error: ' + jxhr.responseJSON.error);
+        if (typeof jxhr.responseJSON == 'undefined') {
+          $('#submitBtn').text('Error');
+        } else {
+          $('#submitBtn').text('Error: ' + jxhr.responseJSON.error);
+        }
       });
   });
 </script>
