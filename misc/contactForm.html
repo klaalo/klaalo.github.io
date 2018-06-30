@@ -102,7 +102,7 @@
     $('button').prop('disabled', true);
     $('#submitBtn').html('<div class="loader"></div>');
     //$.post('http://localhost:8010/klaalo-1162/us-central1/formMailer',
-    $.post('https://us-central1-klaalo-1162.cloudfunctions.net/formMailer',
+    $.post('https://europe-west1-klaalo-1162.cloudfunctions.net/formMailer',
       { message: $('#message').val() }, function(data) {
         if (data.status == 'sent') {
           $('textarea').val(data.message);
