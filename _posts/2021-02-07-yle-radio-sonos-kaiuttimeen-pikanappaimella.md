@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Yle Radio Sonos-kaiuttimeen ajastetusti"
+title: "Yle Radio Sonos-kaiuttimeen pikanäppäimellä"
 date: "2021-02-07 18:12:00 +0300"
 ---
 Aika ajoi ohi vanhasta [monihuonekaiutinjärjestelmästä](kaytannon-kokemuksia-samsung-multiroom-jarjestelmasta). Samsungin kaiuttimien ohjaamiseen käytettävä sovellus oli jo alkujaan huono ja sen käyttö muuttui ajan kuluessa vain vaikeammaksi. Oli aika uusia äänentoisto.
