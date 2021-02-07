@@ -46,7 +46,7 @@ Tietokoneet ovat siinä mielessä näppäriä pikku-laitteita, että niitä pyst
 
 Kokeilin ensin tehdä työnkulun opettaen hiiren klikkaukset ja näppäimistösyötteen Automatorin "Watch Me Do" -toiminnolla, mutta se osoittautui epäluotettavaksi. Automator vaikuttaa tallentavan esim, missä kohtaa dialogia on painettu hiiren painiketta. Tilanne muuttuu, kun näytön resoluutio muuttuu. Hiiren osoitin ei olekaan samassa paikassa, kuin aiemmin ja painallus ohjautuu väärään paikkaan.
 
-Luotettavampaa oli toteuttaa työnkulku skriptinä. Tällä tavoin toiminnot ovat täsmällisiä ja toistuvat olosuhteista riippumatta samoin joka kerran. Automatorissa käyettävä [Apple Script](https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptLangGuide/introduction/ASLR_intro.html) ei ole kaikkien intuitiivisin ohjelmointikieli. Verkosta löytyy hakukone-koodaajalle hyviä vinkkejä, joten skripti syntyi loppujen lopuksi aika pienellä vaivalla. Enemmän vaivaa meni testaamiseen ja hienosäätöön.
+Luotettavampaa oli toteuttaa työnkulku skriptinä. Tällä tavoin toiminnot ovat täsmällisiä ja toistuvat olosuhteista riippumatta samoin joka kerran. Automatorissa käytettävä [Apple Script](https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptLangGuide/introduction/ASLR_intro.html) ei ole kaikkien intuitiivisin ohjelmointikieli. Verkosta löytyy hakukone-koodaajalle hyviä vinkkejä, joten skripti syntyi loppujen lopuksi aika pienellä vaivalla. Enemmän vaivaa meni testaamiseen ja hienosäätöön.
 
 ## Automator-työnkulku
 
@@ -172,7 +172,7 @@ function checkBtnEnabled() {
 }
 ```
 
-Kuten skriptistä huomaa, toistopainikkeen tunniste on satunnaiselta vaikuttavan kryptinen. Pelkäsin, että Yle tekee kiusaa ja painikkeen tunniste muuttuu jokaisella sivulatauksella. Näin ei vaikuta kuitenkaan olevan, vaan skripti on nyt toiminut samalla kovakuudatulla tunnistella useamman viikon. On kuitenkin varauduttava siihen, että skriptiä joutuu hienosäätämään, kun Yle muuttaa toteutustaan.
+Kuten skriptistä huomaa, toistopainikkeen tunniste on satunnaiselta vaikuttavan kryptinen. Pelkäsin, että Yle tekee kiusaa ja painikkeen tunniste muuttuu jokaisella sivulatauksella. Näin ei vaikuta kuitenkaan olevan, vaan skripti on nyt toiminut samalla kovakoodatulla tunnistella useamman viikon. On kuitenkin varauduttava siihen, että skriptiä joutuu hienosäätämään, kun Yle muuttaa toteutustaan.
 
 Toistaiseksi skripti toimii ja ohjelma käynnistyy. Lopputuloksena siis pikanäppäin, jolla Yleisradion Radio1:n saa soimaan Sonos-kaiuttimessta yhdellä näppäinyhdistelmällä.
 
@@ -202,7 +202,7 @@ Ohjelmavirran osoite siis sijoitetaan Sonoksen sovelluksessa TuneIn-palveluun ko
 
 Kuten Tampermonkey-skriptin kohdalla mainitsin, Ylen toteutuksen osoitteet voivat muuttua. Niin saattaa muuttua myös Ylen kanavien virtaustiedostojen osoitteet etenkin, jos Yle vaihtaa jakeluverkostonsa toimittajaa. Nyt käytettävä Akamain osoite on pysynyt viikkoja ennallaan, mutta osoite saattaa äkisti muuttua ja Sonokseen ohjelmoitu radiokanava lakkaa toimimasta.
 
-Yle saattaa myös haluta rajoittaa ohjelmansa käyttöä ja se voikin tietyin jakeluverkoston rajoitusten perusteella käyttää erilaisia keinoja, kuten käytetyn ohjelman tunnistamisen. Tällä tavalla Yle voisi rajoittaa toiston ainoastaan omiin sovelluksiinsa tai selaimiin silloin, kun toisto on käynnistetty sen omasta osoitteesta.
+Yle saattaa myös haluta rajoittaa ohjelmavirtansa käyttöä ja se voikin jakeluverkoston asettamien rajojen sisällä käyttää tähän erilaisia keinoja, kuten käytetyn toistosovelluksen tunnistamisen. Tällä tavalla Yle voisi rajoittaa toiston ainoastaan omiin sovelluksiinsa tai selaimiin silloin, kun toisto on käynnistetty Ylen omasta osoitteesta.
 
 Useimmat suojauskeinot on osaavien käyttäjien kierrettävissä, kuten nämä tässäkin kuvatut kikat osoittavat. Helpompaa olisi yleispalvelua tuottavalle Yleisradiolle vain yksinkertaisesti asettaa ohjelmansa monikanavaisesti saataville siten, että käyttäjät voisivat suoraan kuunnella niitä omissa laitteissaan ilman ylimääräistä kikkailua.
 
