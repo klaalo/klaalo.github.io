@@ -3,7 +3,7 @@ layout: post
 title: "Yle Radio Sonos kaiuttimeen ajastetusti"
 date: "2021-02-07 18:12:00 +0300"
 ---
-Aika ajoi ohi vanhasta [monihuonekaiutinjärjestelmästä](../kaytannon-kokemuksia-samsung-multiroom-jarjestelmasta). Samsungin kaiuttimien ohjaamiseen käytettävä sovellus oli jo alkujaan huono ja sen käyttö muuttui ajan kuluessa vain vaikeammaksi. Oli aika uusia äänentoisto.
+Aika ajoi ohi vanhasta [monihuonekaiutinjärjestelmästä](kaytannon-kokemuksia-samsung-multiroom-jarjestelmasta). Samsungin kaiuttimien ohjaamiseen käytettävä sovellus oli jo alkujaan huono ja sen käyttö muuttui ajan kuluessa vain vaikeammaksi. Oli aika uusia äänentoisto.
 
 Uuden järjestelmän vaatimuksia olivat monihuoneominaisuus ja helppokäyttöisyys, joka käytännössä tarkoitti AirPlay-tukea. Aloin olla niin kyllästynyt bluetooth-parituksiin ja katkoksiin.
 
