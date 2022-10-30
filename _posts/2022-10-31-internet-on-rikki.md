@@ -157,7 +157,7 @@ Mainostajat ovat jo alkaneet peräytyä Twitteristä. Samoin on perääntymäss�
 
 ## Internetin keskittymisestä harvoille on haittaa
 
-Samoin, kuin vallan keskittymisessä ylipäätään, myös Internetin keskittymisestä on haittaa. Internetistä on tullut oligopolim, harvojen valta.
+Samoin, kuin vallan keskittymisessä ylipäätään, myös Internetin keskittymisestä on haittaa. Internetistä on tullut oligopoli, harvojen valta.
 
 Jättien kiistely vallasta internetissä näkyy jo internetin keskeisten protokollien kehittämisessä. Googlella ja Applella on avoin riita lyhytviestien, eli SMS:ien korvaajaprotokollasta [RCS](https://en.wikipedia.org/wiki/Rich_Communication_Services):stä.
 
