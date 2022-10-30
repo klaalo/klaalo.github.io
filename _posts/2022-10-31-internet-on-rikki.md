@@ -15,15 +15,15 @@ Suuren viiden hallussa on paitsi palvelut, joita ihmiset käyttävät laajasti, 
 
 ![Klaalo Twitter front page after Elon Musk bought Twitter](https://misc.karilaalo.fi/pics/2022-10-28-musk-bought-twitter.png)
 
-Muutos ei ole tapahtunut yhtäkkiä vaan hiljakseen. Alla on avattu muutamia isompia muutoksia Internetin keskittymisen taustalla. Hidas muutos havaitaan heikosti, mutta juuri nyt tämä aihe nousee ajankohtaiseksi, kun Elon Musk pitkän ja likaisen kaupankäynnin jälkeen muuttui Twitterin omistajaksi([TheVerge](https://www.theverge.com/2022/10/27/23184519/elon-musk-twitter-acquisition-deal-complete-agreement), [TechCrunch](https://techcrunch.com/2022/10/27/elon-musk-bought-twitter/?guccounter=1)).
+Muutos ei ole tapahtunut yhtäkkiä vaan hiljakseen. Alla on avattu muutamia isompia muutoksia Internetin keskittymisen taustalla. Hidas muutos havaitaan heikosti, mutta juuri nyt tämä aihe nousee ajankohtaiseksi, kun Elon Musk pitkän ja likaisen kaupankäynnin jälkeen muuttui Twitterin omistajaksi ([TheVerge](https://www.theverge.com/2022/10/27/23184519/elon-musk-twitter-acquisition-deal-complete-agreement), [TechCrunch](https://techcrunch.com/2022/10/27/elon-musk-bought-twitter/?guccounter=1)).
 
 ## Spam rikkoi sähköpostin
 
 Sähköpostipalvelu on internet-verkon tietoliikenteen välittämiseen osallistuvien reitittimien ja verkon nimipalvelun rinnalla mainio esimerkki palvelun toteuttamiseen osallistuvien laitteiden hajauttamisesta.
 
-Sähköpostin välittämiseen käytetyn protokollan (SMTP - Simple Mail Transfer Protocol) perusajatuksena on, että organisaatiot ovat jakautuneet verkkoalueisiin (Domain) ja verkkoalueella on omalla alueellaan postia välittämä palvelin. Yritys tai muu organisaatio muodostaa verkkoalueen ja sillä on oma sähköpostipalvelin.
+Sähköpostin välittämiseen käytetyn protokollan (SMTP - Simple Mail Transfer Protocol) perusajatuksena on, että organisaatiot ovat jakautuneet verkkoalueisiin (Domain) ja verkkoalueella on omalla alueellaan postia välittävä palvelin. Verkkoalueen muodostaa yritys tai muu organisaatio.
 
-Verkon nimipalvelun avulla erilliset sähköpostipalvelimet osaavat vastaanottajan osoitteeseen perustuen selvittää, mikä postipalvelin välittää vastaanottajan sähköpostia. Lukemattomat sähköpostipalvelimet muodostavat toisistaan riippumattoman, mutta saumattomasti toimivan verkoston. Jos yksi palvelin on epäkunnossa, vain sen palvelimen alueella olevien käyttäjien sähköposti ei toimi.
+Verkon nimipalvelun avulla erilliset sähköpostipalvelimet osaavat vastaanottajan osoitteeseen perustuen selvittää, mikä postipalvelin välittää vastaanottajan sähköpostia. Lukemattomat sähköpostipalvelimet muodostavat toisistaan riippumattoman, mutta saumattomasti toimivan verkoston. Jos yksi palvelin on epäkunnossa, vain rikkoutuneen palvelimen alueella olevien käyttäjien sähköposti ei toimi.
 
 Sähköposti on alusta asti ollut maksuton siten, että viestien perille välittämisestä ei peritä maksua palvelimien välillä. Luonnollisesti verkon ja sen palvelimien ylläpidosta, verkkoliikenteen välittämisestä ja yhdysliikenteestä ja muusta sellaisesta muodostuu kulua. Kulu on käyttäjälle näkymätön. Käyttäjän näkökulmasta sähköpostin lähettäminen on ilmaista.
 
@@ -33,7 +33,7 @@ Piti kehittää vastatoimia. Kehitettiin roskapostin suodatuspalveluja ja sähk�
 
 Suodatuspalvelujen asentaminen ja ylläpito tai toisaalta roskapostisuodatuksen aiheuttamien ongelmien selvittäminen muuttui niin työlääksi, että [moni luopui oman sähköpostipalvelun ylläpidosta](https://cfenollosa.com/blog/after-self-hosting-my-email-for-twenty-three-years-i-have-thrown-in-the-towel-the-oligopoly-has-won.html) ja siirtyi palveluna tarjottavan sähköpostin käyttäjäksi. Yritykset ostivat sähköpostin palveluna sen sijaan, että olisivat ylläpitäneet omaa palvelintaan.
 
-Myös kuluttajat halusivat internetoperaattorin tarjoamaa sähköpostipalvelua paremman. Kuluttajat siirtyivät maksuttomien mainoksin kustannettujen palvelujen käyttöön. Niissä oli internetoperaattorin sähköpostipalvelua paremmat suodatusominaisuudet ja enemmän tilaa alati kasvaville liitetiedostoille.
+Myös kuluttajat halusivat internetoperaattorin tarjoamaa sähköpostipalvelua parempaa. Kuluttajat siirtyivät maksuttomien mainoksin kustannettujen palvelujen käyttöön. Niissä oli internetoperaattorin sähköpostipalvelua paremmat suodatusominaisuudet ja enemmän tilaa alati kasvaville liitetiedostoille.
 
 Nykyään sähköpostipalvelun tuottaminen on muutaman suuren toimijan varassa. Googlen Gmail, Microsoftin Outlook ja Apple Mail voivat sanella, millä periaatteilla sähköpostia välitetään, millaiset viestit luokitellaan roskapostiksi ja millaiset viestit jätetään kokonaan välittämättä.
 
@@ -55,15 +55,17 @@ Koska hakukoneen ylläpito ei ole ilmaista, kulut keksittiin kattaa mainoksilla.
 
 Hakutuloksien osuvuuteen liittyvät algoritmit on aina olleet salaisuuksia. Niissä on kuitenkin tapahtunut muutos. Osuvuus ei perustu pelkästään siihen, mitä käyttäjä hakee, vaan myös siihen, mitä käyttäjä on hakenut aiemmin, eli käyttäjäkohtainen konteksti. Hakukone alkoi kerätä tietoa käyttäjästä ja muodostaa tästä profiilia. Hakutulosten osuvuus perustuikin nyt siihen, minkälainen käyttäjä on, ei pelkästään siihen, mitä hän hakee.
 
-Samaan aikaan kun hakukonepalvelut yrittivät keksiä, miten kustantaa palvelunsa kulut, myös sivustojen julkaisijat tarvitsivat tulon teon välineen. Hekin ratkaisivat asian näyttämällä käyttäjille mainoksia. Kävikin niin, että hakukonetoimittaja loi mainosverkoston, joka näytti mainoksia paitsi hakutulosten yhteydessä, myös verkkosivustoilla.
+Samaan aikaan kun hakukonepalvelut yrittivät keksiä, miten kustantaa palvelunsa kulut, myös sivustojen julkaisijat tarvitsivat tulon teon välineen. Hekin ratkaisivat asian näyttämällä käyttäjille mainoksia. Kävikin niin, että hakukoneyhtiö loi mainosverkoston, joka näytti mainoksia paitsi hakutulosten yhteydessä, myös verkkosivustoilla.
 
-Yritysten on tarve saada palvelunsa ja tuotteensa näkyville, joten ne mainostivat näiden mainosverkostojen kautta. Lisäksi tuottavaksi kaupalliseksi palveluksi muodostui hakukoneoptimointi. Hakukoneoptimoinnin tarkoitus on toteuttaa verkkosivujen julkaisut siten, että ne saisivat paitsi paljon linkutyksiä, että hakukoneiden algoritmit nostaisivat sivuston julkaisut tuloslistan kärkeen.
+Yritysten on tarve saada palvelunsa ja tuotteensa näkyville, joten ne mainostivat mainosverkostojen kautta.  
 
-Koska mainoksia verkkoon myyvät hakukonetoimittajat, ne näkevät paitsi mitä käyttäjä hakee, myös millä sivuilla käyttäjät vierailevat. Niinpä enää pelkästään linkkien määrä ei vaikuta hakutulosten osuvuuteen, vaan se, kuinka paljon linkkejä klikataan ja paljonko sivuja luetaan.
+Tuottavaksi asiantuntijapalveluksi muodostui hakukoneoptimointi. Hakukoneoptimoinnin tarkoitus on toteuttaa verkkosivujen julkaisut siten, että ne saisivat paljon linkityksiä ja erottuvat hauissa. Optimointi on onnistunut,kun hakukoneiden algoritmit nostavat sivuston julkaisut tuloslistan kärkeen.
+
+Koska mainoksia verkkoon myyvät hakukoneyhtiöt, ne näkevät paitsi mitä käyttäjät hakevat, myös millä sivuilla käyttäjät vierailevat. Niinpä enää pelkästään linkkien määrä ei vaikuta hakutulosten osuvuuteen, vaan se, kuinka paljon linkkejä klikataan ja paljonko sivuja luetaan.
 
 Syntyi ilmiö: klikkien kalastelu. Paitsi, että sivustoista piti tehdä sellaisia, että hakukone nostaa ne tuloslistan kärkeen, sivustojen piti saada mahdollisimman paljon klikkauksia käyttäjiltä, eli niiden piti näkyä mahdollisimman monelle silmäparille lukumääräisesti mitattuna.
 
-Syntyi myös lieveilmiö. Haitallisten sivujen piti saada näkyvyyttä myös, jotta esimerkiksi huijauksiin käytetyt sivustot pääsisivtä hakukonetuloksissa esiin ja saisivat klikkauksia käyttäjiltä. Niinpä haitalliset sivustot alkoivat kopioida sivuillensa materiaalia suosituilta uutis- ja tietosivuilta. Näin ne näyttäytyivät hakukoneille asiallisilta sivustoilta, vaikka tosiasiassa yrittivät esimerkiksi harhauttaa käyttäjää asentamaan haitta- tai kiristysohjelman laitteellensa.
+Syntyi myös lieveilmiö. Haitallisten sivujen piti saada näkyvyyttä myös. Huijauksiin käytettävien sivustojen on myös tarve päästä hakukonetuloksissa esiin. Niinpä haitalliset sivustot alkoivat kopioida materiaalia suosituilta uutis- ja tietosivuilta. Näin ne näyttäytyivät hakukoneille asiallisina sivustoina, vaikka tosiasiassa yrittivät esimerkiksi harhauttaa käyttäjää asentamaan haitta- tai kiristysohjelman laitteellensa.
 
 Motivaatiot käyttäjien huomiolle on moninaisia aina hyvässä tarkoituksessa tehdyn markkinoinnin ja pahassa tarkoituksessa tehdyn harhauttamisen välillä. Hakukoneptimoinnin seuraus hyvässä ja pahassa on se, missä olemme nyt.
 
@@ -75,25 +77,25 @@ Hakukoneet eivät enää toimi. Hyödyllistä informaatiota on vaikea löytää 
 
 ## Zuckerbergin ahneus rikkoi Facebookin
 
-Facebook oli aikanaan mukavan tuntuinen yhteisö, jossa oli mahdollista viestiä tuttavien ja heidän tuttavien kanssa. Facebookiin muodostui eri asioiden harrastajien yhteisöjä ja ryhmiä erilaisten aihepiirien ympärille.
+Facebook oli aikanaan mukavan tuntuinen yhteisö, jossa oli mahdollista viestiä tuttavien ja heidän tuttaviensa kanssa. Facebookiin muodostui eri asioiden harrastajien yhteisöjä ja ryhmiä erilaisten aihepiirien ympärille.
 
 Facebookiin modostui nk. puskaradioita, paikallisia kaupunginosaryhmiä, joissa alueen asukkaat pystyivät vaihtaa tietoa ja keskustella alueen asioista tuntematta toisiaan henkilökohtaisesti. Ryhmät olivat hyödyllisiä toimiessaan ajankohtaisena alueen ilmoitustauluna.
 
 Hellyttävien kissakuvien lisäksi Facebook mahdollisti kaverien jakaa kavereilleen kuvia lomamatkoistaan tai harrastuksistaan. Hakukoneiden algoritmien tapaan Facebook alkoi järjestellä käyttäjien syötteen virtaa sen mukaan, mitkä julkaisut saivat eniten tykkäyksiä ja huomiota. Hakukoneiden algoritmien tapaan, mitä useampi silmäpari vietti aikaa julkaisun parissa, sitä todennöisemmin julkaisua näytettiin myös muille.
 
-Kuten hakukoneet, myös Facebook tuskaili tulon tekemisen periaatteiden kanssa. Kuinka ollakaan, myös Facebook keksi tulon tekijäksi mainokset. Käyttäjien julkaisuvirrassa alettiin näyttää mainoksia. Käyttäjien huomiosta ei kilpaillut ainoastaan selfiet ja kissakuvat, vaan mainostajien materiaali. Mitä enemmän mainostaja oli valmis käyttämään rahaa, sitä enemmän hänen sisältöään näytettiin.
+Kuten hakukoneet, myös Facebook tuskaili kannattavuuden kanssa. Kuinka ollakaan, myös Facebook keksi tulon tekijäksi mainokset, joita alettiin näyttää käyttäjien julkaisuvirrassa. Käyttäjien huomiosta ei kilpaillut ainoastaan selfiet ja kissakuvat, vaan mainostajien materiaali. Mitä enemmän mainostaja oli valmis käyttämään rahaa, sitä useammin hänen sisältöään näytettiin.
 
 Yritykset löysivät myös harrasteryhmät. Koska varsinainen mainostaminen Facebookin alustalla maksoi rahaa, yritykset alkoivat luoda tavallisia käyttäjätilejä mainostaakseen puskaradiossa vertaisena käyttäjänä muiden joukossa. Kaupunginosaryhmissäkin alkoi näkyä yhä enemmän julkaisuja, joiden ainoa tarkoitus oli saada yrityksille näkyvyyttä ja asiakkaita. Kaupunginosaryhmät eivät enää olleetkaan niin hyödyllisiä kuin aiemmin.
 
 Kun mainokset tulvivat kissakuvien joukossa ja kaupunginosaryhmien julkaisujen seassa käyttäjien silmille yhä useammin, he alkoivat kokea Facebookin enemmän rasitteeksi kuin hyödylliseksi.
 
-Facebook oli kasvanut maailmanlaajuiseksi valtavaksi mainosverkostoksi. Mainostulojen lisäksi Facebook tarvitsi tuloja levittääkseen lonkerojaan yhä laajemmalle. Facebook osti WhatsApp pikaviestialustan ja kuvien jakamiseen tarkoitetun Instagramin.
+Facebook oli kasvanut maailmanlaajuiseksi valtavaksi mainosverkostoksi. Facebook osti WhatsApp pikaviestialustan ja kuvien jakamiseen tarkoitetun Instagramin.
 
-Facebook ja ostetut sosiaalisen median palvelut erotettiin omiksi yhtiökseen. Niiden omistajaksi tuli emoyhtiö Meta. Metalle tuli mahdolliseksi yhdistellä eri välineistä kerättävää tietoa ja muodostaa käyttäjistä ja heidän verkostoistaan yhä tarkempia profiileja, joiden avulla mainoksia ja informaatiosyötettä voitiin paremmin kohdentaa.
+Facebook ja ostetut sosiaalisen median palvelut erotettiin omiksi yhtiökseen. Niiden omistajaksi tuli emoyhtiö Meta. Metalle tuli mahdolliseksi yhdistellä eri välineistä kerättyä tietoa ja muodostaa käyttäjistä ja heidän verkostoistaan yhä tarkempia profiileja. Profiiluen avulla mainoksia ja informaatiosyötettä voitiin paremmin kohdentaa.
 
-Facebookin ja Metan perustaja Mark Zuckerberg haaveili Metaversesta, digitaalisesta virtuaalisesta ympäristöstä, jossa ihmiset eläisivät digitaalisena olentoina. Metaversessä tapahtuisi kaikki digitaalinen asiointi ja viestintä, jopa digitaalinen työ kokouksineen siirtyisi Metaverseen.
+Facebookin ja Metan perustaja Mark Zuckerberg haaveili Metaversesta, digitaalisesta virtuaalisesta ympäristöstä, jossa ihmiset eläisivät digitaalisena olentoina. Metaversessä tapahtuisi kaikki digitaalinen asiointi ja viestintä. Jopa digitaalinen työ kokouksineen siirtyisi Metaverseen.
 
-Kasvun ja laajenemisen mahdollistajaksi tarvittiin lisää tulon tekijöitä. Kävi ilmeiseksi, että rahaa voi tehdä myös myymällä käyttäjistä kertyvää tietoa. Metan omistamien välindeiden tuottama tarkka profiili käyttäjistä voitiin myydä mainostajille "nimettömänä".
+Kasvun ja laajenemisen mahdollistajaksi tarvittiin lisää tulon tekijöitä. Kävi ilmeiseksi, että rahaa voi tehdä myös myymällä käyttäjistä kertyvää tietoa. Metan omistamien välineiden tuottama tarkka profiili käyttäjistä voitiin myydä mainostajille "anonymisoituna".
 
 Vakavin episodi käyttäjien tietojen myymisessä tapahtui 2010-luvulla, kun [Cambridge Analytica -skandaali](https://en.wikipedia.org/wiki/Facebook–Cambridge_Analytica_data_scandal) tuli julkisuuteen. Facebookista kerättyjä käyttäjien tietoja yhdisteltiin muista lähteistä ja suoraan käyttäjille tehdyistä kyselyistä saatuihin tietoihin, joista muodostettiin tarkkoja psykologisia profiileja.
 
@@ -101,11 +103,11 @@ Tuli mahdolliseksi vahvistaa ihmisten ennakkoasenteita näyttämällä ja korost
 
 Lopputulos tunnetaan. Donald Trumpista tuli presidentti ja Yhdysvaltojen poliittinen kenttä jakaantui vahvasti. Lopulta, kun Donald Trump hävisi presidenttikisan Joe Bidenille, vihainen väkijoukko ryntäsi väkivaltaisesti vallaten Yhdysvaltojen senaatin Washingtonissa. Mellakassa aiheutui kuolemia ja loukkaantumisia. Eturivin poliitikot avustajineen, mm. Trumpin oma varapresidentti Mike Pence onnistui väistämään vihaista väkijoukkoa vain täpärästi.
 
-Mainokset eivät enää olleet Facebookin ainoa haitta. Ennakkoluulojen kasvu ja silkka usko salaliittoteorioihin alkoi hajoittaa yhteiskuntia. Väitetään, että Facebook on ollut osallisena jopa [rohinga-kansan murhaan Myanmarissa](https://en.wikipedia.org/wiki/Rohingya_genocide#Facebook_controversy).
+Mainokset eivät enää olleet Facebookin ainoa haitta. Ennakkoluulojen kasvu ja silkka usko salaliittoteorioihin alkoi hajottaa yhteiskuntia. Väitetään, että Facebook on ollut osallisena jopa [rohinga-kansan murhaan Myanmarissa](https://en.wikipedia.org/wiki/Rohingya_genocide#Facebook_controversy).
 
 Useita "lopeta Facebookin käyttö" -kampanjoita on käynnistynyt ei ainoastaan Cambridge Analytica -skandaalin, Yhdysvaltain senaatin valtauksen tai Myanmarissa tapahtuneen kansanmurhan myötä. Edelleen Facebook myy mainoksia ja alustalla julkaistaan paitsi kissakuvia ja -videoita, myös käyttäjien omia tarinoita. Edelleen Zuckerbergin suunnitelmissa on Metaverse.
 
-Facebookin voidaan sanoa olevan suorastaan haitallinen. Voidaan väittää, että Zuckergerin ahneus laajentaa Facebookista ja sen sisarpalveluista alusta digitaaliseen elämään, eli Zuckerbergin suuruudenhullut Metaverse-suunnitelmat ovat tuhoneet hänen luomansa alustan.
+Facebookin voidaan sanoa olevan suorastaan haitallinen. Voidaan väittää, että Zuckergerin ahneus laajentaa Facebookista ja sen sisarpalveluista alusta digitaaliseen elämään ovat rikkoneet sen. Zuckerbergin suuruudenhullut Metaverse-suunnitelmat ovat tuhoneet hänen luomansa alustan.
 
 ## Evästeiloitukset rikkoivat webin
 
@@ -113,21 +115,21 @@ Ylenmääräinen käyttäjien henkilötietojen kerääminen ja käyttäjien henk
 
 Euroopassa tuli voimaan henkilötietoja suojaava [yleinen tietosuoja-asetus](https://fi.wikipedia.org/wiki/Yleinen_tietosuoja-asetus) (GDPR). Eräänä tietosuoja-asetuksen epäonnistumisena pidetään evästesuostumuskyselyjä, joita verkkosivustoilla lain mukaan joudutaan esittämään, mikäli evästeitä käytetään.
 
-Mainosverkoston käyttivät evästeitä käyttäjien tunnistamiseksi yhdistääkseen käyttäjien klikkailut heidän profiiliinsa ja kerätäkseen tällä tavalla vieläkin tarkempaa tietoa käyttäjistä.
+Mainosverkostot käyttivät evästeitä käyttäjien tunnistamiseksi yhdistääkseen käyttäjien klikkailut heidän profiiliinsa ja kerätäkseen tarkempaa tietoa.
 
-Lainsäätäjät kokivat evästeet ongelman ytimeksi ja etenkin suurten teknologiajättien lobbaamisen ansiosta asiassa päädyttiin säätämään kehnosti. Syntyi sekamelskainen direktiivi sähköisen viestinnän palveluista (ePrivacy), jota Suomessa toteutetaan vastaavalla [lailla](https://www.finlex.fi/fi/laki/ajantasa/2014/20140917#O7L24).
+Lainsäätäjät kokivat evästeet ongelman ytimeksi ja etenkin suurten teknologiajättien valtavan lobbaamisen myötä tai siitä huolimatta asiassa päädyttiin säätämään kehnosti. Syntyi sekamelskainen direktiivi sähköisen viestinnän palveluista (ePrivacy), jota Suomessa toteutetaan vastaavalla [lailla](https://www.finlex.fi/fi/laki/ajantasa/2014/20140917#O7L24).
 
 Ihmiset siis erehtyvät osoittamaan väärää puuta kritisoidessa tietosuoja-asetusta (GDPR) evästesuostumusviidakosta.
 
-Sekava sääntely aiheutti valtavaa hankaluutta aivan päivittäisessä internetin käytössä. Jokaisella sivustolla käytetään evästeitä ja kun evästeitä käytetään, laki vaatii nykyään pyytämään evästeiden käytölle suostumuksen. Suostumuspyynnöt ovat hyvin kirjavia.
+Sekava sääntely aiheutti valtavaa hankaluutta aivan päivittäisessä internetin käytössä. Jokaisella sivustolla käytetään evästeitä ja kun evästeitä käytetään, laki vaatii pyytämään evästeiden käytölle suostumuksen. Suostumuspyynnöt ovat hyvin kirjavia.
 
 Vaikka laki edellyttää, että suostumuksen perumisen ja sen antamatta jättämisen pitäisi olla yhtä helppoa, kuin suostumuksen antamisen, suostumuksen antamiseen käytettävät palvelut yrittävät tehdä kieltäytymisestä hyvin vaikeaa.
 
-Internetin selailu ja sivujen lukeminen on rikki. Mainosverkostojen tiedonkeruu ja maailmanlaajuinen joukkovalvonta käynnisti huonon lainsäädännön, jolla yritetään suojella ihmisten oikeutta yksityisyyteen ja kitkeä massavalvontaa -seurantaa. Suostumuspyynnöt aiheuttavat erillisen lisärasitteen ja klikkauksen jokaisella sivulla erikseen. Internetin sivujen selailu on raivostuttavaa evästesuostumuspyyntöjen väistelyä.
+Internetin selailu ja sivujen lukeminen on rikki. Mainosverkostojen tiedonkeruu ja maailmanlaajuinen joukkovalvonta käynnisti huonon lainsäädännön, jolla yritetään suojella ihmisten oikeutta yksityisyyteen ja kitkeä massavalvontaa sekä massaseurantaa. Suostumuspyynnöt aiheuttavat lisärasitteen ja turhia klikkauksia jokaisella sivulla erikseen. Internetin sivujen selailu on raivostuttavaa evästesuostumuspyyntöjen väistelyä.
 
 ## Klikkiotsikot rikkovat journalismia
 
-Huomio käyttäjien silmäpareista on veristä kilpailua. Ilmiö on heijastunut myös journalismiin. Sanomalehtien tilaaminen digitaalisena versiona lienee jo yleisempää, kuin paperilehden tilaaminen.
+Huomio käyttäjien silmäpareista on veristä kilpailua. Ilmiö on heijastunut myös journalismiin.
 
 Sanomalehtien julkaisijoiden on tuotettava sama uutinen monessa mediassa. Edelleen julkaistaan perinteinen paperinen päivälehti, mutta sen rinnalla on digilehti ja vielä erikseen verkkosivusto, jolla uutiset julkaistaan heti niiden ilmestyttyä.
 
@@ -135,7 +137,7 @@ Paperinen lehti, sen näköisversio ja digilehti edellyttää tilaamista. Niitä
 
 Ja kuten jo tähän mennessä olemme oppineet, verkkosivustoilla joudutaan kilpailemaan silmäpareista. Niinpä myös sanomalehtien verkkosivustot joutuvat tekemään sivustoistaan, eli julkaistavista uutisotsikoista mahdollisimman houkuttelevia.
 
-Tämä ilmiö on johtanut jopa uudissanan merkityksen avaamista sanakirjaan. [Klikkijournalismilla](https://www.kielikello.fi/-/klikkausjournalismi-ja-muita-vuoden-sanoja) tarkoitetaan julkaistavien uutisten ja niiden otsikoiden muokkaamista mahdollisimman uteliaisuutta herättäväksi, jotta klikkauksia kertyisi paljon. 
+Tämä ilmiö on johtanut jopa uudissanan määrittelyyn sanakirjassa. [Klikkijournalismilla](https://www.kielikello.fi/-/klikkausjournalismi-ja-muita-vuoden-sanoja) tarkoitetaan julkaistavien uutisten ja niiden otsikoiden muokkaamista mahdollisimman uteliaisuutta herättäväksi, jotta klikkauksia kertyisi paljon. 
 
 Uutisten otsikot ovat erilaisia eri medioissa. Perinteisessä paperilehdessä julkaistavat otsikot ovat lähempänä uutisen aiheetta, kun paperilehden ei tarvitse kilpailla silmäpareista. Verkkosivulla julkaistavan uutisen otsikon on oltava räväkkä ja huomiota herättävä.
 
@@ -151,7 +153,9 @@ Internetin ongelmat kärjistyivät lokakuussa 2022, kun Elon Musk pitkän ja lik
 
 Koko Elon Muskin uraa aina Paypalin kautta autojen ja rakettien valmistajaksi voi yhdellä sanalla luonnehtia pompöösiksi. Zuckerbergin Metaversetavoitteiden tavoin Musk tavoittelee kaiken kattavaa alustaa X.
 
-Nyt Musk omistaa Twitterin ja on jo tehnyt paljon suuria muutoksia. Hän aloitti erottamalla joukon johtajia. Donald Trumpin aikaansaama Yhdysvaltain senaatin valtaaminen johti elinikäiseen porttikieltoon Twitteristä. Nyt, Muskin tultua Twitterin vallan kahvaan, [aprikoidaan](https://www.cnbc.com/2022/10/28/trump-says-twitter-is-now-in-sane-hands-with-musk.html), palauttaako Musk Trumpin pääsyn Twitteriin.
+Nyt Musk omistaa Twitterin ja on jo tehnyt suuria muutoksia. Hän aloitti erottamalla joukon johtajia.
+
+Donald Trumpin aikaansaama Yhdysvaltain senaatin valtaaminen johti elinikäiseen porttikieltoon Twitteristä. Nyt, Muskin tultua Twitterin vallan kahvaan, [aprikoidaan](https://www.cnbc.com/2022/10/28/trump-says-twitter-is-now-in-sane-hands-with-musk.html), palauttaako Musk Trumpin pääsyn Twitteriin.
 
 Mainostajat ovat jo alkaneet peräytyä Twitteristä. Samoin on perääntymässä käyttäjät, jotka pelkäävät, että Twitter muuttuu vihapuheen, virheellisten väittämien ja tarkoituksella valheellisen harhaanjohtavan tiedon alustaksi.
 
@@ -161,10 +165,10 @@ Samoin, kuin vallan keskittymisessä ylipäätään, myös Internetin keskittymi
 
 Jättien kiistely vallasta internetissä näkyy jo internetin keskeisten protokollien kehittämisessä. Googlella ja Applella on avoin riita lyhytviestien, eli SMS:ien korvaajaprotokollasta [RCS](https://en.wikipedia.org/wiki/Rich_Communication_Services):stä.
 
-Google on kehittänyt RCS:stä korvaajan vanhalle rajoittuneelle SMS:lle ja haluaisi myös Applen ottavan sen laitteissaan käyttöön. Applella on vain omissa laitteissaan iCloudin välityksellä toimiva iMessage-palvelu, joka sulkee käytäjät Applen ekosysteemiin. Sillä on vähän syitä ja tahtoa ottaa käyttöön Googlen suunnitteleman viestiprotokolla, vaikka se olisikin lähtökohdiltaan avoin.
+Google on kehittänyt RCS:stä korvaajan vanhalle rajoittuneelle SMS:lle ja haluaisi myös Applen ottavan sen laitteissaan käyttöön. Applella on vain omissa laitteissaan iCloudin välityksellä toimiva iMessage-palvelu, joka sulkee käytäjät Applen ekosysteemiin. Sillä on vähän syitä ja tahtoa ottaa käyttöön Googlen suunnittelema viestiprotokolla, vaikka se olisikin parempi ja lähtökohdiltaan avoin.
 
-Applen johtaja Tim Cook on vielä syksyllä 2022 ilmaissut selkeästi, että Applella ei ole suunnitelmia Googlen suunnitteleman protokollan käyttöönotosta.
+Applen johtaja Tim Cook on syksyllä 2022 ilmaissut selkeästi, että Applella ei ole suunnitelmia Googlen suunnitteleman protokollan käyttöönotosta.
 
-Suomessa ja euroopassa ei vielä kovin paljon puhuta [nettineutraliteetusta](https://fi.wikipedia.org/wiki/Nettineutraliteetti). Yhdysvalloissa keskustelu on vilkasta, kun internetverkon operaattorit rajoittavat tai hidastavat tietynlaista liikennettä verkossaan.
+Suomessa ja euroopassa ei vielä kovin paljon puhuta [nettineutraliteetista](https://fi.wikipedia.org/wiki/Nettineutraliteetti). Yhdysvalloissa keskustelu on vilkasta, kun internetverkon operaattorit rajoittavat tai hidastavat tietynlaista liikennettä verkossaan.
 
-Voidaan siis sanoa, että Internet on rikki. Se on ajautunut harvojen valtaan ja ei enää toimi hajautetusti siten, kuin se alun perin suunniteltiin.
+Voidaan siis sanoa, että Internet on rikki. Se on ajautunut harvojen valtaan ja ei enää toimi hajautetusti siten, millaiseksi se alun perin suunniteltiin.
