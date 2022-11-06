@@ -2,7 +2,6 @@
 layout: post
 title: "Internet on rikki"
 date: "2022-10-31 20:12:00 +0300"
-published: false
 ---
 
 Kun Internet-verkkoa aikanaan alettiin kehittää Yhdysvalloissa, se suunniteltiin hajautetuksi. Verkon jokainen tekninen kerros perustuu siihen, että verkko koostuu lukemattomista päätteistä, joilla jokaisella on oma, muista erillinen osoite. 
@@ -37,7 +36,7 @@ Myös kuluttajat halusivat internetoperaattorin tarjoamaa sähköpostipalvelua p
 
 Nykyään sähköpostipalvelun tuottaminen on muutaman suuren toimijan varassa. Googlen Gmail, Microsoftin Outlook ja Apple Mail voivat sanella, millä periaatteilla sähköpostia välitetään, millaiset viestit luokitellaan roskapostiksi ja millaiset viestit jätetään kokonaan välittämättä.
 
-Pienen sähköpostipalvelun ylläpitäjän on aivan turhaa yrittää vedota protokollan sääntöihin, jos suuri sähköpostipalvelun tuottaja ei suostu välittämään hänen viestejään. Suuren sähköpostipalvelun tuottajan kanssa ei voi keskustella, sillä niillä ei ole asiakaspalvelua tai kontaktipistettä, johon ottaa yhteyttä ongelmissa.
+Pienen sähköpostipalvelun ylläpitäjän on aivan turha yrittää vedota protokollan sääntöihin, jos suuri sähköpostipalvelun tuottaja ei suostu välittämään hänen viestejään. Suuren sähköpostipalvelun tuottajan kanssa ei voi keskustella, sillä niillä ei ole asiakaspalvelua tai kontaktipistettä, johon ottaa yhteyttä ongelmissa.
 
 Voi siis sanoa, että roskaposti ja kuluttajien siirtyminen käyttämään muutamia suuria sähköpostipalveluja paitsi rikkoi hajautetun sähköpostipalvelun, myös siirsi vallan sähköpostipalvelusta muutamalle suurelle yritykselle. Muutama yritys päättää, miten ja millä ehdoilla sähköpostia välitetään. Pienillä ei ole asiassa sanan valtaa.
 
