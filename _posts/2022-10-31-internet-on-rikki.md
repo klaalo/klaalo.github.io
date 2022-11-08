@@ -108,7 +108,7 @@ Useita "lopeta Facebookin käyttö" -kampanjoita on käynnistynyt ei ainoastaan 
 
 Facebookin voidaan sanoa olevan suorastaan haitallinen. Voidaan väittää, että Zuckergerin ahneus laajentaa Facebookista ja sen sisarpalveluista alusta digitaaliseen elämään ovat rikkoneet sen. Zuckerbergin suuruudenhullut Metaverse-suunnitelmat ovat tuhoneet hänen luomansa alustan.
 
-## Evästeiloitukset rikkoivat webin
+## Evästeilmoitukset rikkoivat webin
 
 Ylenmääräinen käyttäjien henkilötietojen kerääminen ja käyttäjien henkilöprofiilien luominen huolestutti lainsäätäjiä. Edward Snowdenin paljastukset [maailmanlaajuisesta joukkovalvonnasta](https://fi.wikipedia.org/wiki/Maailmanlaajuista_joukkovalvontaa_koskevat_paljastukset_(2013_alkaen)) ja itävaltalaisen [Max Schremsin oikeustapaus](https://en.wikipedia.org/wiki/Max_Schrems#Schrems_I) aiheutti mm. [sopimuksien purkautumisen](https://en.wikipedia.org/wiki/International_Safe_Harbor_Privacy_Principles), joiden perusteella voitiin välittää henkilötietoja Euroopan ja Yhdysvaltain välillä.
 
