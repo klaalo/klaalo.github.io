@@ -2,7 +2,6 @@
 layout: post
 title: "Kantelu Oikeuskanslerille Valtioneuvoston viestinnästä"
 date: "2023-07-29 14:02:00 +0300"
-published: false
 ---
 
 Suomen hallituksen alkutaival on ollut vaikea. Hallituksen ministerien vanhaa ja myös kohtuullisen tuoretta rasistiseksi luonnehdittua viestintää on tullut julkisuuteen ja hallitus on reagoinut asiaan erilaisilla vastineilla.
