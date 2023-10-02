@@ -10,7 +10,7 @@ Jo edellisessä 2h+k huoneistossa harkitsin jäähdytyslaitetta. Huoneistossa ol
 Muutettuamme suurempaan ja aurinkoisempaan taloon teimme viimein päätöksen ilmalämpöpumpun hankkimisesta.
 
 {:.image}
-![Ilmalämpöpumppu yleiskuva kollaasi](https://storage.googleapis.com/misc-blobs/ilp-overview-collage.jpg)
+![Ilmalämpöpumppu yleiskuva kollaasi](https://misc.karilaalo.fi/misc-blobs/ilp-overview-collage.jpg)
 
 {:.image-caption}
 Kollaasin pystykuvassa ilmalämpöpumpun sisäyksikkö, pienessä yläkuvassa ulkoyksikkö ilman koteloa ja alakuvassa kotelon suojaamana.
@@ -92,7 +92,7 @@ Jos kondenssivesi poistetaan parvekkeelle, on sisäyksiköltä oltava toimiva ka
 Sisäyksikkö on sijoitettava riittävän lähelle ulkoyksikköä. Jos sisäyksikkö halutaan etäälle ulkoyksiköstä, muuttuu asennus hieman kalliimmaksi, kun kondenssiveden poistoa varten joudutaan asentamaan erillinen väliallas ja pumppu. Muistelen saamistani ohjeista, että sisä- ja ulkoyksikön järkevä etäisyys on olosuhteista riippuen n. 4-5 metriä. Tämä yleensä rajoittaa sisäyksikön sijoituksen siihen huoneeseen, mikä on lähimpänä parveketta.
 
 {:.image}
-![Ilmalämpöpumpun asennuksen yksityiskohtia](https://storage.googleapis.com/misc-blobs/ilp-details-collage.jpg)
+![Ilmalämpöpumpun asennuksen yksityiskohtia](https://misc.karilaalo.fi/misc-blobs/ilp-details-collage.jpg)
 
 {:.image-caption}
 Pienessä yläkuvassa vasemmalla turvakytkin, oikealla kylmäaineputket, joiden alla kondenssiveden poistoputki. Oikeassa yläkuvassa näkyy myös ulkoyksikön asennus telineelle ja tärinöitä vaimentava kumitassu. Alakuvassa vasemmalla turvakytkin ja johtojen kuljetus kourussa läpiviennille. Oikeassa alakuvassa kylmäaineputket kuljetetaan kourussa sisäyksikölle läpiviennistä. Oikean alakuvan suuremmasta kourusta alaspäin lähtee sähköjohto, joka on kytketty lähimpään pistorasiaan.
