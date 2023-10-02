@@ -42,7 +42,7 @@ Jos radiokanava löytyisi Sonoksesta, sen myös saisi käynnistettyä ajastetust
 
 Tietokoneet ovat siinä mielessä näppäriä pikku-laitteita, että niitä pystyy ohjelmoimaan saadakseen toivotun asian tehtyä helposti. Mac-tietokoneissa on Automator-ohjelma, jolle voi opettaa tai skriptata toimintoketjuja, eli työnkulkuja. Työnkulku saadaan pikanäppäimen taakse, tai ajastettua. Tällä toiminnolla saa siis täytettyä juuri sen tarpeen, jonka Yleisradion kanavien puute Sonoksessa jättää.
 
-![kuvakaappaus Automator-työmkulusta](https://storage.googleapis.com/misc.karilaalo.fi/pics/yle-radio-1-automator.png)
+![kuvakaappaus Automator-työmkulusta](https://misc.karilaalo.fi/pics/yle-radio-1-automator.png)
 
 Kokeilin ensin tehdä työnkulun opettaen hiiren klikkaukset ja näppäimistösyötteen Automatorin "Watch Me Do" -toiminnolla, mutta se osoittautui epäluotettavaksi. Automator vaikuttaa tallentavan esim, missä kohtaa dialogia on painettu hiiren painiketta. Tilanne muuttuu, kun näytön resoluutio muuttuu. Hiiren osoitin ei olekaan samassa paikassa, kuin aiemmin ja painallus ohjautuu väärään paikkaan.
 
@@ -119,7 +119,7 @@ end run
 
 Työnkulku saadaan tallennettua pikanäppäimelle ainoastaan, jos se ei ota vastaan syötettä. On siis asetettava: "Workflow receives": "no input", työnkulun asetuksiksi.
 
-![kuvakaappaus Automator-työnkulun asetuksista](https://storage.googleapis.com/misc.karilaalo.fi/pics/yle-radio-1-automator-settings.png)
+![kuvakaappaus Automator-työnkulun asetuksista](https://misc.karilaalo.fi/pics/yle-radio-1-automator-settings.png)
 
 Kun työnkulku on tallennettu oikeanlaisilla asetuksilla, se ilmaantuu palveluksi MacOs:n työkalupalkkiin käynnistettäväksi. Ensimmäisillä käynnistyskerroilla kysellään kaikenlaisia lupia. Luvat täytyy vielä myöntää erikseen jokaiselle sovellukselle, joka on aktiivisena näytöllä, kun työnkulku käynnistetään.
 
@@ -176,7 +176,7 @@ Kuten skriptistä huomaa, toistopainikkeen tunniste on satunnaiselta vaikuttavan
 
 Toistaiseksi skripti toimii ja ohjelma käynnistyy. Lopputuloksena siis pikanäppäin, jolla Yleisradion Radio1:n saa soimaan Sonos-kaiuttimessta yhdellä näppäinyhdistelmällä.
 
-![kuvakaappaus automator työnkulun suorituksesta](https://storage.googleapis.com/misc.karilaalo.fi/pics/automator-yle-radio-1-launched.gif)
+![kuvakaappaus automator työnkulun suorituksesta](https://misc.karilaalo.fi/pics/automator-yle-radio-1-launched.gif)
 
 ## Sonokselle oma kiertotie
 
@@ -190,7 +190,7 @@ Keskustelussa mainittavat linkit kuitenkin ovat erilliseen palvelimeen, kuin mit
 
 Areenan toimintaa voi tutkia selaimen kehittäjän työkalujen (developer tools) avulla. Täältä on jokaisen itse poimittavissa osoite, josta kanavan toisto käynnistyy.
 
-![kuvakaappaus Areenan sivulta kehittäjän työkaluin](https://storage.googleapis.com/misc.karilaalo.fi/pics/yle-radio-1-stream-url.png)
+![kuvakaappaus Areenan sivulta kehittäjän työkaluin](https://misc.karilaalo.fi/pics/yle-radio-1-stream-url.png)
 
 Areenan Web-toteutus siis on vain selaimessa toimiva soitin, joka virtauttaa kanavan toiston aivan samoin, kuin TuneIn tai Sonoksen oma radiopalvelu tekisi.
 
