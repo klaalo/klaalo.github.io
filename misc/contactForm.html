@@ -101,8 +101,7 @@
     $('textarea').prop('disabled', true);
     $('button').prop('disabled', true);
     $('#submitBtn').html('<div class="loader"></div>');
-    //$.post('http://localhost:8010/klaalo-1162/us-central1/formMailer',
-    $.post('https://europe-west1-klaalo-1162.cloudfunctions.net/formMailer',
+    $.post('https://closely-accepted-wolf.ngrok-free.app/send',
       { message: $('#message').val() }, function(data) {
         if (data.status == 'sent') {
           $('textarea').val(data.message);
