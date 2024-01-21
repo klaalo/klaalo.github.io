@@ -4,7 +4,7 @@ title: "Kaupunki vastaa kaupunkilaisaloitteeseen"
 date: "2024-01-21 15:36:00 +0300"
 ---
 
-Jätin 7.8.2023 Vantaan kaupunkille kaupunkilaisaloitteen mopojen paikasta liikenteessä. Julkaisin aloitteen [täällä](./mopojen-paikka-liikenneymparistossa) omalla sivullani. Jätin aloitteen kaupunkille [kuntalaisaloite-palvelussa](https://www.kuntalaisaloite.fi/fi/aloite/33095).
+Jätin 7.8.2023 Vantaan kaupungille kaupunkilaisaloitteen mopojen paikasta liikenteessä. Julkaisin aloitteen [täällä](./mopojen-paikka-liikenneymparistossa) omalla sivullani. Jätin aloitteen kaupungille [kuntalaisaloite-palvelussa](https://www.kuntalaisaloite.fi/fi/aloite/33095).
 
 Kysyin moneen kertaan aloitteen käsittelystä. 19.10.2023 sain kaupungilta tiedon, että aloite ei ole saapunut heille kuntalaisaloitepalvelussa tapahtuneen käyttökatkon johdosta. Kaupunki pyysi aloitetta palvelusta, vaikka se on koko ajan ollut saatavilla myös omalla verkkosivullani.
 
