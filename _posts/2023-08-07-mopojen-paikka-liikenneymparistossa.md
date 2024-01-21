@@ -48,7 +48,7 @@ Koko matkalla yhdistetty jalankulku- ja pyörätie on myös hyvin kapea. Kaksi p
 
 ## Mopo on moottoriajoneuvo
 
-Mopoilija lähestyy jalankulkijaa jopa 45 km/h ja alasmäessä kovempaakin. Myös aikuiset, jopa 80 kg painoiset ja painavammatkin henkilöt voivat ajaa mopolla, jolloin ajoneuvon liike-energia on huomattava. Törmäysenergia esim. kulman takaa huomaamatta ilmaantuvaan sähköpotkulautailijaan on hyvin vaarallinen.
+Mopoilija lähestyy jalankulkijaa jopa 45 km/h ja alamäessä kovempaakin. Myös aikuiset, jopa 80 kg painoiset ja painavammatkin henkilöt voivat ajaa mopolla, jolloin ajoneuvon liike-energia on huomattava. Törmäysenergia esim. kulman takaa huomaamatta ilmaantuvaan sähköpotkulautailijaan on hyvin vaarallinen.
 
 Mopo on moottoriajoneuvo, joka voi helposti kiertää pidemmän lenkin, joten ei ole perusteltua sallia mopoilijan käyttää lyhempää ja sujuvampaa lihasvoimin kulkevan reittiä.
 

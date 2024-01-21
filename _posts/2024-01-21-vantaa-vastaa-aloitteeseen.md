@@ -60,7 +60,7 @@ Kaupunki ei vastauksellaan sanallakaan viittaa suunnittelutavoitteisiin, vaan p�
 
 Vaikka ohje olisikin maanteiden suunnitteluun, vastauksen toinen perustelu tekee ensimmäisen tyhjäksi. Kaupunki ohjaa asioimaan valtion Väyläviraston kanssa, joka vastaa Vihdintien ylläpidosta. Kun Vihdintie siis on [seudullinen valtatie](https://fi.wikipedia.org/wiki/Seututie_120), maantietä koskevan ohjeen voisi katsoa koskevan etenkin vihdintietä.
 
-On välttelevää ohjata aloitteen tekijä tässä tapauksessa valtion palautekanavaan, kun kyseessä on väylä, joka sijaitsee kaupungin alueella. Kaupunki on kaupunkilaisia varten ja on tietysti niin, että myös kaupungin virkailijoilla on velvollisuus edistää muutosta yhdessä väylää ylläpitävän viraston kanssa siitä huolimatta, että virasto olisi Valtion.
+On välttelevää ohjata aloitteen tekijä tässä tapauksessa valtion palautekanavaan, kun kyseessä on väylä, joka sijaitsee kaupungin alueella. Kaupunki on kaupunkilaisia varten ja on tietysti niin, että myös kaupungin virkailijoilla on velvollisuus edistää muutosta yhdessä väylää ylläpitävän viraston kanssa siitä huolimatta, vaikka virasto olisi Valtion.
 
 Ja kyllä, on aivan selvä, että suunnittelussa ohjeita tulee katuverkossa
 
