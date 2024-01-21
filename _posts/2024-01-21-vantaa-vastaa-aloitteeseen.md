@@ -97,7 +97,7 @@ Kaupungin vastauksesta muodostuu myös Vantaan turvallisuussuunnitelman mukaisia
 
 ## Vantaa edistää pyöräilyä
 
-On tässä yhteydessä kuitenkin todettava, että Vantaa ei ole täydellisesti laiminlyönyt toimenpiteitä edistää pyöräilyä. On aihetta nostaa esiin, että Vantaa on tehnyt mm. [Vantaa pyöräillen](https://www.vantaa.fi/sites/default/files/document/Vantaa-pyoraillen-esite.pdf) -esitteen, jossa esitellään hyvin suunnitellut alueelliset pyöräilireitit Vantaalla.
+On tässä yhteydessä kuitenkin todettava, että Vantaa ei ole täydellisesti laiminlyönyt toimenpiteitä edistää pyöräilyä. On aihetta nostaa esiin, että Vantaa on tehnyt mm. [Vantaa pyöräillen](https://www.vantaa.fi/sites/default/files/document/Vantaa-pyoraillen-esite.pdf) -esitteen, jossa esitellään hyvin suunnitellut alueelliset pyöräilyreitit Vantaalla.
 
 Yksittäinen toimenpide ei yksin riitä perustelemaan, että pyöräilyä edistetään. Nyt näiden yksittäisten hienojen pyöräilyä edistävien toimenpiteiden jatkoksi pitäisi ottaa kiinni tavoiteohjelmassa toteuttamatta jääneitä ja vielä suunnitelmissa olevia muita aktiivista liikkumista edistäviä toimenpiteitä.
 
@@ -126,7 +126,7 @@ Tapaus osoittaa, että etenkään käytännössä Vantaan periaatteet liikennemu
 
 Kun nyt tässä esitetyn valossa näyttää siltä, että kaupunki ei noudata liikennepoliittisia periaatteitaan ja omaa toimintaohjelmaansa liikenteen rauhoittamisen osalta, on ilmeistä, että asiaa tulisi käsitellä kaupunkitilalautakunnassa.
 
-> Lautakunta käsittelee muun muassa katu- ja puistosuunnitelmia, toimitilahankkeiden suunnitelmia, vastuualueisiinsa liittyviä urakkahankintoja, maanluovutuksia ja -ostoja sekä maa- ja asuntopolitiikkaan liittyviä periaatelinjauksia.
+> Kaupunkitilalautakunta vastaa kaupungin kiinteistöomaisuuden hallinnasta ja kehittämisestä, julkisista toimitiloista sekä liikenteen ja yhdyskuntatekniikan kehittämisestä ja ylläpidosta.
 
 Nopeusrajoituksen alentaminen Rajatorpantiellä kaupungin liikenteen rauhoittamisohjelman mukaisesti ja mopoilun siirtäminen pyörätieltä ajoradalle selvästi on kaupunkitilalautakunnalle kuuluva asia.
 
