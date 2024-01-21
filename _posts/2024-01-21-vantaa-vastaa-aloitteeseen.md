@@ -124,7 +124,7 @@ Tapaus osoittaa, että etenkään käytännössä Vantaan periaatteet liikennemu
 
 ## Asiaa on käsiteltävä kaupunkitilalautakunnassa
 
-Kun nyt tässä esitetyn valossa näyttää siltä, että kaupunki ei noudata liikennepoliittisia periaatteitaan ja omaa toimintaohjelmaansa liikenteen rauhoittamisen osalta, on ilmeistä, että asiaa tulisi käsitellä kaupunkitilalautakunnassa.
+Kun nyt tässä esitetyn valossa näyttää siltä, että kaupunki ei noudata liikennepoliittisia periaatteitaan ja omaa toimintaohjelmaansa liikenteen rauhoittamisen osalta, on ilmeistä, että asiaa tulisi käsitellä [kaupunkitilalautakunnassa](https://www.vantaa.fi/fi/kaupunki-ja-paatoksenteko/paatoksenteko/kaupunkitilalautakunta).
 
 > Kaupunkitilalautakunta vastaa kaupungin kiinteistöomaisuuden hallinnasta ja kehittämisestä, julkisista toimitiloista sekä liikenteen ja yhdyskuntatekniikan kehittämisestä ja ylläpidosta.
 
