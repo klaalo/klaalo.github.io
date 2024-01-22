@@ -72,6 +72,8 @@ Perustelin, että mopon ja jalankulkijan massojen ja nopeuden ero (mahdollisen t
 
 Mopon ja jalankulkijan nopeusero on **vähintään 40 km/h**. Liikennesuunnittelijan yritys perustella mopoilulle ajoneuvoliikenteen seassa ajamisesta aiheutuvaa vaaraa on täydellisen suhteeton.
 
+Jalankulkijan loukkaantumisen riski on huomattavan suuri jalankulkijan ja mopon välisessä onnettomuudessa. Mopoilija ottaa tietoisen riskin valitessaan kulkuvälineensä.
+
 Kaupunkin sunnitteluperiaatteet ovat hyvin selkeät. Kestävälle ja aktiiviselle liikkumiselle pitäisi antaa etusija.
 
 ## Vantaan tavoite on rauhoittaa liikennettä
