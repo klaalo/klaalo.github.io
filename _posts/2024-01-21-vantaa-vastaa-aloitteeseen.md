@@ -72,7 +72,7 @@ Perustelin, että mopon ja jalankulkijan massojen ja nopeuden ero (mahdollisen t
 
 Mopon ja jalankulkijan nopeusero on **vähintään 40 km/h**. Liikennesuunnittelijan yritys perustella mopoilulle ajoneuvoliikenteen seassa ajamisesta aiheutuvaa vaaraa on täydellisen suhteeton.
 
-Jalankulkijan loukkaantumisen riski on huomattavan suuri jalankulkijan ja mopon välisessä onnettomuudessa. Mopoilija ottaa tietoisen riskin valitessaan kulkuvälineensä.
+Jalankulkijan loukkaantumisen riski on huomattavan suuri jalankulkijan ja mopon välisessä onnettomuudessa. Mopoilija ottaa tietoisen riskin valitessaan kulkuvälineensä. Esimerkiksi Lehtikalliossa asuvalle jalankulkijalle ei ole vaihtoehtoista reittiä kulkiessaan runkolinjan bussipysäkille. Hän joutuu käyttämään jalkakäytävää. Mopoilijan on mahdollista käyttää ajorataa. Ajorata on moottoriajoneuvolle luontevampi paikka liikenteessä.
 
 Kaupunkin sunnitteluperiaatteet ovat hyvin selkeät. Kestävälle ja aktiiviselle liikkumiselle pitäisi antaa etusija.
 
