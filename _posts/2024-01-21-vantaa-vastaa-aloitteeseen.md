@@ -58,7 +58,7 @@ Kaupunki ei vastauksellaan sanallakaan viittaa suunnittelutavoitteisiin, vaan p�
 
 > taajamassa mopolla ajoa pyörätiellä ei yleensä sallita
 
-Vaikka ohje olisikin maanteiden suunnitteluun, vastauksen toinen perustelu tekee ensimmäisen tyhjäksi. Kaupunki ohjaa asioimaan valtion Väyläviraston kanssa, joka vastaa Vihdintien ylläpidosta. Kun Vihdintie siis on [seututie](https://fi.wikipedia.org/wiki/Seututie_120), maantietä koskevan ohjeen voisi katsoa koskevan etenkin vihdintietä.
+Vaikka ohje olisikin maanteiden suunnitteluun, vastauksen toinen perustelu tekee ensimmäisen tyhjäksi. Kaupunki ohjaa asioimaan valtion Väyläviraston kanssa, joka vastaa Vihdintien ylläpidosta. Kun Vihdintie siis on [seututie](https://fi.wikipedia.org/wiki/Seututie_120), maantietä koskevan ohjeen voisi katsoa koskevan etenkin Vihdintietä.
 
 On välttelevää ohjata aloitteen tekijä tässä tapauksessa valtion palautekanavaan, kun kyseessä on väylä, joka sijaitsee kaupungin alueella. Kaupunki on kaupunkilaisia varten ja on tietysti niin, että myös kaupungin virkailijoilla on velvollisuus edistää muutosta yhdessä väylää ylläpitävän viraston kanssa siitä huolimatta, vaikka virasto olisi Valtion.
 
@@ -70,7 +70,7 @@ Juuri tästä syystä esitin aloitteessani perusteluja sille, miksi eri liikenne
 
 Perustelin, että mopon ja jalankulkijan massojen ja nopeuden ero (mahdollisen törmäyksen liike-energia) aiheuttaa paljon suuremman vaaran liikenteessä, kuin moottoriajoneuvojen keskinäinen massaero. Mopojen ja muun ajoneuvoliikenteen nopeurajoitusten ero Rajatorpantiellä on nykyisellään **5 km/h**.
 
-Mopon ja jalankulkijan nopeusero on **vähintään 40 km/h**. Liikennesuunnittelijan yritys perustelulla mopoilulle ajoneuvoliikenteen seassa ajamisesta aiheutuvaa vaaraa on täydellisen suhteeton.
+Mopon ja jalankulkijan nopeusero on **vähintään 40 km/h**. Liikennesuunnittelijan yritys perustella mopoilulle ajoneuvoliikenteen seassa ajamisesta aiheutuvaa vaaraa on täydellisen suhteeton.
 
 Kaupunkin sunnitteluperiaatteet ovat hyvin selkeät. Kestävälle ja aktiiviselle liikkumiselle pitäisi antaa etusija.
 
