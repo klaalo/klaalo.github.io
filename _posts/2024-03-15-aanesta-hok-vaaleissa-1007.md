@@ -10,7 +10,7 @@ HOK-Elannon [säännöt](https://cdn.aok.wp.s-cloud.fi/uploads/sites/22/2021/06/
 
 ![1007 Olen ehdolla](https://misc.karilaalo.fi/vihreat/1007_HOK_vaalit.png)
 
-[Lue lisää](https://www.uudenmaanvihreat.fi/hok-elannon-edustajiston-vaalit-2024/) Vihreiden tavotteista HOK-Elannon vaaleissa 2024.
+[Lue lisää](https://www.uudenmaanvihreat.fi/hok-elannon-edustajiston-vaalit-2024/) Vihreiden tavoitteista HOK-Elannon vaaleissa 2024.
 
 ## Äänestä kriittistä ehdokasta
 
