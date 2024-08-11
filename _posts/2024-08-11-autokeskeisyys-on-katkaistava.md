@@ -31,7 +31,7 @@ Lisävinkki: kun klikkaat Hesarin web-sivujen keskusteluissa kommentoijan nimeä
 
 ## Autokeskeisyys värittää keskustelua
 
-Helsingin Sanomien artikkelissa käsiteltiin tapausta, jossa pakettiauton kuljettaja vaaransi pyöräilijöiden turvallisuuden, ja kaksi pyöräilijää joutui sairaalaan [[2]](https://www.hs.fi/suomi/art-2000010572049.html).
+Helsingin Sanomien artikkelissa käsiteltiin tapausta, jossa ensitietojen perusteella epäillään, että pakettiauton kuljettaja vaaransi pyöräilijöiden turvallisuuden. Se tiedetään varmuuudella, että kaksi pyöräilijää joutui sairaalaan [[2]](https://www.hs.fi/suomi/art-2000010572049.html).
 
 Tässä tapauksessa on surullista huomata, kuinka osa keskustelusta kääntyi pyöräilijöiden syyllistämiseen, vaikka syy vaikuttaa olevan autoilijan huolimattomuudessa (en ole löytänyt mediatietoa tutkinnan valmistumisesta). Toivottavasti kyseessä ei ollut autoiljan tahallisuus.
 
