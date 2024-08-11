@@ -61,7 +61,7 @@ Pyöräilyn ja muun aktiivisen liikkumisen edistäminen ei ole autoilijoilta poi
 
 Autoistuminen ei vähene ja aktiivisesta liikkumisesta ei tule useampien ensisijainen valinta sattumalta. Muutosta täytyy tukea liikennesuunnittelun toimin.
 
-Vantaalla on jo päätetty, että kaupunkialueilla aktiivisella liikkumisella on ensisija [[5]](https://www.vantaa.fi/sites/default/files/document/Vantaan%20liikennepoliittinen%20ohjelma%202023%20hyväksytty%20%28ID%20303618%29.pdf). Yksityisautoilu on viimesijalla. Havainnot vantaalaisessa liikennejärjestelmästä osoittavat muuta. Vantaalla meidän täytyy alkaa noudattaa poliittisia päätöksiä, joita liikenteen kehittämisestä ja rauhoittamisesta on sovittu [[6]](http://paatokset.vantaa.fi/ktwebscr/fileshow?doctype=3&docid=2698806&version=1).
+Vantaalla on jo päätetty, että kaupunkialueilla aktiivisella liikkumisella on ensisija [[5]](https://www.vantaa.fi/sites/default/files/document/Vantaan%20liikennepoliittinen%20ohjelma%202023%20hyväksytty%20%28ID%20303618%29.pdf). Yksityisautoilu on viimesijalla. Havainnot vantaalaisesta liikennejärjestelmästä osoittavat muuta. Vantaalla meidän täytyy alkaa noudattaa poliittisia päätöksiä, joita liikenteen kehittämisestä ja rauhoittamisesta on sovittu [[6]](http://paatokset.vantaa.fi/ktwebscr/fileshow?doctype=3&docid=2698806&version=1).
 
 #### Tämän artikkelin tuottamisessa on käytetty tekoälyä
 
