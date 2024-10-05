@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Raitiovaunu toteutuu Vantaalla"
-date: "2024-10-05 14:32:00 +0300"
+date: "2024-10-05 14:46:00 +0300"
 ---
 
 Vantaan sanomien mielipidesivulla oli [keskiviikon 2.10.2024 lehdessä](https://nakoislehti.media.fi/vantaansanomat/e228f932-6563-495e-a6b0-7c588de1a15c/10) hieno 3 artikkelin yhdistelmä raitiovaunusta.
