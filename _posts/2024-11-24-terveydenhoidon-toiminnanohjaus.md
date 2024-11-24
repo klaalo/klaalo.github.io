@@ -2,6 +2,7 @@
 layout: post
 title: "Terveydenhoidon toiminnanohjaus ei tapahdu itsestään"
 date: "2024-11-24 15:56:00 +0300"
+category: sote
 ---
 
 Terveydenhoidossa on prosesseja. Annan muutamia esimerkkejä. Ennen vuositarkastusta on otettava näytteitä, joista saadaan tietoa terveydentilasta. Toimenpiteen jälkeen tarvitaan hoito-ohjeita, seurantaa ja jälkihoitoa. Oikea-aikainen rokotus tuottaa parhaan vasteen.
