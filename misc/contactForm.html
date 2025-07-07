@@ -106,7 +106,7 @@
     $('textarea').prop('disabled', true);
     $('button').prop('disabled', true);
     $('#submitBtn').html('<div class="loader"></div>');
-    $.post('https://closely-accepted-wolf.ngrok-free.app/send',
+    $.post('https://test-idp.olevi.fi/webemailer/send',
       { message: $('#message').val() }, function(data) {
         if (data.status == 'sent') {
           $('textarea').val(data.message);
