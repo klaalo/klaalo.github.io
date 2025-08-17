@@ -54,3 +54,4 @@ defaults:
 
 gems:
   - jekyll-sitemap
+  - webrick
