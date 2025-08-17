@@ -5,7 +5,7 @@ date: "2025-08-17 18:21:00 +0300"
 category: liikenne vantaa
 ---
 
-Tämä on [kuntalaisaloite](https://www.kuntalaisaloite.fi) Vantaan kaupungille. Aloite on kuntalaisaloitepalvelun ylläpidon tarkastuksessa. Kun aloite on tarkastettu ja julkaistu, tälle sivulle lisätään linkki aloitteeseen.
+Tämä on Vantaan kaupungille tehtävä [kuntalaisaloite](https://www.kuntalaisaloite.fi). Aloite on kuntalaisaloitepalvelun ylläpidon tarkastuksessa. Kun aloite on tarkastettu ja julkaistu, tälle sivulle lisätään linkki aloitteeseen.
 
 ## Johdanto
 
