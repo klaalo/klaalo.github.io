@@ -27,7 +27,7 @@ Raitti on alueella, joka tarjoaa merkittävän viheryhteyden lajiston siirtymise
 
 Raitti on merkittävä lähivirkistyksen tekijä etenkin Pähkinärinteen ja lähialueen asukkaille. Se palvelee myös Espoon virkistymistä, sillä mm. [Jupperin](https://fi.wikipedia.org/wiki/Jupperi) asuinalue on aivan kaupungin rajan toisella puolen.
 
-Tie on tällä osuudella osin mutkainen ja toisaalta Tuomelan suunnalla mäkinen. Mutkien taakse on merkittävät näkymäesteet.
+Tie on tällä osuudella osin mutkainen ja toisaalta Tuomelan suunnalla mäkinen. Mutkien taakse on merkittävät näkymäesteet. Alueen pohjoispäässä Tuomelassa raitti kulkee maatalomaisen pihan halki.
 
 ## Raitin käyttö
 
@@ -55,7 +55,7 @@ Tämä on todennettavissa, kun esimerkiksi Applen karttaohjelmassa hakee reitin 
 
 [Vantaan liikennepoliittinen ohjelma](https://www.vantaa.fi/sites/default/files/document/Vantaan%20liikennepoliittinen%20ohjelma%202023%20hyväksytty%20%28ID%20303618%29.pdf) tarkentaa ja konkretisoi mm. kaupungin strategian 2022-2025 tavoitteita [5]. Ohjelmassa nimetään johdannossa ensimmäisenä olla viihtyisä kestävyyden edelläkävijäkaupunki.
 
-Vantaa on määrittänyt kaupunkikeskustojen kulkumuotojen priorisoinnista, että kävely on ensisijainen kulkumuoto. Vaikka Hämeenkyläntie ei ehkä ole kaupunkikeskuksessa, on yleisellä käsityskyvyllä hahmotettavissa, kuinka omaleimaisesti alue soveltuu ensisijaisesti kaupunkimaisen asuinalueen aktiiviliikkujille. Raitilla on erittäin olennainen merkitys Hämeenkylässä jalkaisin liikkuville. Se on keskeinen kävelyreitti alueiden välillä virkistysalueiden välittömässä läheisyydessä.
+Vantaa on määrittänyt kaupunkikeskustojen kulkumuotojen priorisoinnista, että kävely on ensisijainen kulkumuoto. Vaikka Hämeenkyläntie ei ehkä ole kaupunkikeskuksessa, on yleisellä käsityskyvyllä hahmotettavissa, kuinka omaleimaisesti alue soveltuu ensisijaisesti kaupunkimaisen asuinalueen aktiiviliikkujille. Raitilla on erittäin olennainen merkitys Hämeenkylässä jalkaisin liikkuville. Se on keskeinen kävelyreitti virkistysalueiden keskellä.
 
 [Vantaan pyöräliikenteen kehittämisohjelmassa 2021-2026](https://static.traficom.fi/sites/default/files/media/file/Vantaan%20pyöräliikenteen%20kehittämisohjelma.pdf) [6] pyöräilyn kulkutapaosuudeksi (tavoite v1) tavoitellaan vuonna 2026 15% osuutta. Kuten ohjelmassa todetaankin, pyöräliikenteen ratkaisuille tulee antaa tilaa. Ohjelmassa on linjattu tavoite (sivu 19, kohta 6 pyöräilyn virkistys- ja matkailureitit): ”Puistoreitit ovat pyörämatkailun, ulkoilun ja virkistäytymisen kannalta tärkeitä yhteyksiä ja liikuntapaikkoja”.
 
@@ -83,7 +83,7 @@ Pihakadulla ajoneuvon on annettava jalankulkijalle esteetön kulku. Jalankulkija
 
 Pihakaduksi merkitseminen tarjoaisi myös Poliisille välineitä toimia ja määrätä sanktioita autoilijoille, jotka osoittavat röyhkeää piittamattomuutta alueen liikenneturvallisuuden toteutumisessa.
 
-Soratienä Hämeenkyläntie ei sovellu [kylätie](https://fi.wikipedia.org/wiki/Kylätie)kokeiluksi, sillä siihen ei voi tehdä ajoratamaalauksia. Raitin päällystäminen ei ole aiheenmukaista. Mikäli tässä esitetyt muutokset toteutetaan, päällystämisellä ei olisi virkistyskäyttön kannalta merkitystä. Se myös haittaisi luontoyhteyden toteutumista. Alueen kaupunkikuvallisen merkityksen johdosta raitti on säilytettävä soratienä. Pihakatu merkitään liikennemerkein.
+Soratienä Hämeenkyläntie ei sovellu [kylätie](https://fi.wikipedia.org/wiki/Kylätie)kokeiluksi, sillä siihen ei voi tehdä ajoratamaalauksia. Raitin päällystäminen ei ole aiheenmukaista. Mikäli tässä esitetyt muutokset toteutetaan, päällystämisellä ei olisi virkistyskäytön kannalta merkitystä. Se myös haittaisi luontoyhteyden toteutumista. Alueen kaupunkikuvallisen merkityksen johdosta raitti on säilytettävä soratienä. Pihakatu merkitään liikennemerkein.
 
 
 ## Aloite
