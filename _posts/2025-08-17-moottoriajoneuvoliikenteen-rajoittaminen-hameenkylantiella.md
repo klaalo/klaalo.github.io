@@ -102,7 +102,7 @@ Jos edellinen ei ole mahdollista, vaihtoehtoisesti esitän, että Hämeenkylänt
     * [https://www.vantaa.fi/fi/palveluhakemisto/toimipiste/soltorpin-luonnonsuojelualue](https://www.vantaa.fi/fi/palveluhakemisto/toimipiste/soltorpin-luonnonsuojelualue)
 * [4] Vantaan karttapalvelu, Luonto- ja ympäristö, Liito-orava, viitattu 17.8.2025
     * [https://kartta.vantaa.fi/](https://kartta.vantaa.fi/)
-* [5] Vantaan liikennepoliittinen ohjelma, Kaupunkitilalautakunta 51.2.2023 ja Kaupunginhallitus 13.3.2023
+* [5] Vantaan liikennepoliittinen ohjelma, Kaupunkitilalautakunta 15.2.2023 ja Kaupunginhallitus 13.3.2023
     * [https://www.vantaa.fi/sites/default/files/document/Vantaan%20liikennepoliittinen%20ohjelma%202023%20hyväksytty%20%28ID%20303618%29.pdf](https://www.vantaa.fi/sites/default/files/document/Vantaan%20liikennepoliittinen%20ohjelma%202023%20hyväksytty%20%28ID%20303618%29.pdf)
 * [6] Vantaan pyöräliikenteen kehittämisohjelma 2021-2026, Vantaan kaupunki / Ramboll, päiväämätön
     * [https://static.traficom.fi/sites/default/files/media/file/Vantaan%20pyöräliikenteen%20kehittämisohjelma.pdf](https://static.traficom.fi/sites/default/files/media/file/Vantaan%20pyöräliikenteen%20kehittämisohjelma.pdf)
