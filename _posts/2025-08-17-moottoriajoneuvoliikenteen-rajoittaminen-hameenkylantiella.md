@@ -5,7 +5,8 @@ date: "2025-08-17 18:21:00 +0300"
 category: liikenne vantaa
 ---
 
-Osallistu kuntalaisaloiteteeseen Vantaan kaupungille: [https://www.kuntalaisaloite.fi/fi/aloite/44386](https://www.kuntalaisaloite.fi/fi/aloite/44386)
+[Aloite](https://www.kuntalaisaloite.fi/fi/aloite/44386) on lähetetty Vantaan kaupungille 15.10.2025. Siihen ei enää voi osallistua. Seuraavasta upokkeesta näet, kuinka aloitteeseen osallistuttiin.
+<iframe id="kuntalaisaloite-leijuke" frameborder="0" scrolling="no" src="https://www.kuntalaisaloite.fi/graph-iframe/fi/44386?showTitle=false" width="600" height="600"> </iframe>
 
 ## Johdanto
 
