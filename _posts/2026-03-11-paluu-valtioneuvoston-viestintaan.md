@@ -64,8 +64,6 @@ Suhteessa kanteluni asiasisältöön on kiinnostavaa perustella toimenpiteisiin 
 
 Tuolloin ja ilmeisesti edelleen esimerkiksi Yle julkaisee verkkoartikkelissa Twitter-viestit upotteina. Jotta upotteet voi nähdä, täytyy hyväksyä seurantaevästeet. Nähdäkseen Twitter-upotteet uutisten lukijan täytyy hyväksyä, että yhdysvaltalainen volatiilin miljardöörin omistama yhtiö saa nähdä, mitä ihminen lukee.
 
-Oikeuskansleri ilmeisesti siis on odottanut, että minun pitäisi yksilöidä Twitter-viestit, joita en voi nähdä. Kanteluni tarkoitus oli juuri se, että kansalainen ei voi nähdä Twitter-viestejä antamatta yhdysvaltalaiselle yritykselle luvan seurata suomalaisen kansalaisen toimintaa.
-
 Tämä ei suoranaisesti ollut kuitenkaan ydinperuste oikeuskanslerille olla käyttämättä enempää aikaa asiaan. Ydinperuste vaikutaa olleen oikeuskanslerin katsoneen, että rasismikohun tapahtuessa ministerit Rydman ja Purra eivät olleen vielä virassa. Kun he eivät ollee virassa ja valtioneuvoston jäseniä, heidän toimintansa ei kesän rasismikohun aikaan kuulunut oikeuskanslerin toimivaltaan.
 
 ## Muotoseikoilla on merkitystä
