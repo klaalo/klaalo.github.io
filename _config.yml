@@ -8,7 +8,7 @@ title:              "Kari Laalo"
 author_name:        "Kari Laalo"
 author_email:       webmaster@karilaalo.fi
 author_gravatar:    7c0d875afb5bb3e011df513cf5bd09f1e805350ee8df1b8fd64f2b27d19283ad # Gravatar md5 hash
-twitter_username:   klaalo
+#twitter_username:   klaalo
 
 # Site Settings
 #baseurl:            "https://www.karilaalo.fi" # Base URL must end WITHOUT a slash, default: ""
@@ -28,11 +28,17 @@ sass:
 
 # Other Params
 include:            [ "robots.txt" ]
-exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]
+exclude:
+  - "LICENSE"
+  - "README.md"
+  - "CNAME"
+  - "vendor"
+  - "Gemfile"
+  - bin/
 
 compress_html:
     clippings:      all
-    ingore:
+    ignore:
         envs:       [ "test" ]
 
 defaults:
