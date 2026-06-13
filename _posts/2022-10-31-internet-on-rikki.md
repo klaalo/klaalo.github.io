@@ -2,6 +2,7 @@
 layout: post
 title: "Internet on rikki"
 date: "2022-10-31 20:12:00 +0300"
+tags: [digitaalinenItsenaisyys]
 ---
 
 Kun Internet-verkkoa aikanaan alettiin kehittää Yhdysvalloissa, se suunniteltiin hajautetuksi. Verkon jokainen tekninen kerros perustuu siihen, että verkko koostuu lukemattomista päätteistä, joilla jokaisella on oma, muista erillinen osoite. 
