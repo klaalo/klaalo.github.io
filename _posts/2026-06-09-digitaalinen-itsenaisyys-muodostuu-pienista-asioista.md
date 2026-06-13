@@ -9,7 +9,7 @@ Digitaalinen itsenäisyys ei ole jotain, mikä syntyy yhdessä yössä suuren mu
 
 Asiat hajoavat hiljalleen, päivittäin. Rämettyminen tapahtuu huomaamatta, kun koemme olevamme turvassa: yksittäisissä digitaalisissa palveluissa, joita olemme tottuneet käyttämään arjessamme. Omalla tavallaan tästä on osoitus, että kirjoitin tästä jo vuonna 2022: [Internet on rikki](./internet-on-rikki)
 
-Digitaalinen itsenäisyytemme kehittäminen on sarja pieniä, tarkoituksellisia valintoja. Pienet tekniset ratkaisut muovaavat arkeamme. Niitä ovat sähköpostin tai datan tallennuksen valinta.
+Digitaalisen itsenäisyytemme kehittäminen on sarja pieniä, tarkoituksellisia valintoja. Pienet tekniset ratkaisut muovaavat arkeamme. Niitä on mm. sähköpostitoteutuksen valinta.
 
 ## Ilmaista lounasta ei ole
 
