@@ -28,7 +28,7 @@ Suomessa teleoperaattorit ovat edenneet vaihtelevasti:
 
 Konsultti ei aina työskentele samassa toimistossa. Myös matkapuhelinoperaattorin 5G-liittymän täytyy tarjota IPv6-tuki, jotta työt sujuvat.
 
-Nykyään suuret sähköpostipalvelut (Gmail, Yahoo, Outlook) tukevat molempia protokollia, ja IPv6 on usein suoraviivaisempi vaihtoehto ilman NAT-välityksen aiheuttamia viiveitä.
+Nykyään suuret sähköpostipalvelut (Gmail, Yahoo, Outlook) tukevat molempia protokollia. IPv6 on usein suoraviivaisempi vaihtoehto ilman NAT-välityksen aiheuttamia viiveitä.
 
 Tässä projektissa tavoitteenani oli:
 - Vähentää turhia kustannuksia poistamalla IPv4-osoitteet palvelimilta, joilla niitä ei tarvita (kuten toimiston ja palvelinalustan väliset yhteydet).
