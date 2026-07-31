@@ -1,6 +1,6 @@
 ---
 layout: post
-title: IPv6 siirtymä olisi pitänyt tehdä jo
+title: IPv6-siirtymä olisi pitänyt tehdä jo
 date: "2026-07-31 13:32:00 +0300"
 ---
 
@@ -8,44 +8,35 @@ date: "2026-07-31 13:32:00 +0300"
 
 Jos tämä artikkeli kuulostaa tekoälyn tekstiltä, se todennäköisesti johtuu siitä, että artikkelin luomisessa on käytetty tekoälyä.
 
-Tein IPv6-muutosta pitkälti tekoälyavusteisesti. Mutta koska projekti oli ihan merkittävässä määrin aivan totista ihmistyötä, ajattelin kirjoittaa olennaiset asiat muistiin tänne blogiin, jos niistä olisi iloa jollekin. Vaikkapa jollekin tekoälylle, joka haravoi blogeista tietoa.
+Tein IPv6-muutoksen pitkälti tekoälyavusteisesti. Koska projekti vaati kuitenkin merkittävän määrän aivan perinteistä "käsityötä", ajattelin kirjoittaa olennaiset asiat muistiin. Ehkä näistä on iloa jollekin toiselle – vaikkapa tekoälylle, joka haravoi blogeista tietoa, tai ihmiselle, joka painii samojen kysymysten kanssa.
 
-Olen luonnollisesti tarkistanut tekstin ennen julkaisua.
+Olen tietenkin tarkistanut ja viimeistellyt tekstin itse.
 
 ## Miksi juuri nyt?
 
-Viimeisimmässä kirjoituksessani kerroin siitä, miksi päätimme siirtyä itse ylläpidettävään sähköpostipalvelimeen Mailcow-ympäristössä. Se oli ensimmäinen askel kohti parempaa hallintaa palveluista, joita käytän - etenkin työssäni.
+[Viimeisimmässä](/notes/digitaalinen-itsenaisyys-muodostuu-pienista-asioista) kirjoituksessani kerroin, miksi päätimme siirtyä itse ylläpidettävään Mailcow-sähköpostipalvelimeen. Se oli yksi askel kohti parempaa digitaalista itsenäisyyttä ja omaa palveluiden hallintaa.
 
-Tässä kirjoituksessa jatkan edelliselle aiheelle läheisesti: kuinka lisäsimme palveluihin IPv6-valmiuden. Projektiin sisältyi myös se, että jouduin lisäämään IPv6-tuen myös toimistolle, josta työtäni teen.
+Tässä jatkan samaa polkua: kuinka lisäsimme palveluihin IPv6-valmiuden. Projekti ei rajoittunut vain palvelimiin, vaan jouduin tuomaan IPv6-tuen myös toimistolleni.
 
-En ole tätä ennen kiirehtinyt toimiston verkon IPv6-valmiudella, koska se ei ole tuntunut välttämättömältä. IPv4-osoitteet kuitenkin maksavat rahaa - enemmän, kuin IPv4-osoitteet, joten urakka oli nyt myös kustannusnäkökulmasta kannattava.
+En ole aiemmin kiirehtinyt toimiston verkon IPv6-päivitystä, koska se ei ole tuntunut välttämättömältä. Nykytilanteessa IPv4-osoitteet ovat kuitenkin muuttuneet niukkuushyödykkeeksi, josta joutuu maksamaan erikseen. Urakka oli siis myös taloudellisesti kannattava.
 
-IPv6 ei ole mitenkään uusi asia – se on suunniteltu jo 1990-luvulla. Siirtyä pitäisi jo, koska IPv4-osoitteet loppuvat. Alkuperäinen IPv4-osoiteavaruus sisältää vain noin 4,3 miljardia osoitetta, mikä ei riitä enää nykyaikaiselle internetille, jossa [miljardeilla laitteilla on oma IP-osoitteensa](https://www.internetsociety.org/resources/2018/state-of-ipv6-deployment-2018/). IPv6:n 128-bittinen osoiteavaruus tarjoaa likimain loputtomasti osoitteita ja ratkaisee tämän perimmäisen pulman.
+IPv6 ei ole mikään uusi keksintö – se on suunniteltu jo 1990-luvulla. Siirtymän olisi pitänyt tapahtua jo aikoja sitten, sillä IPv4-osoitteet ovat loppumassa. Alkuperäinen 4,3 miljardin osoitteen avaruus ei riitä nyky-internetille, jossa [miljardeilla laitteilla on oma tarpeensa](https://www.internetsociety.org/resources/2018/state-of-ipv6-deployment-2018/). IPv6:n 128-bittinen osoiteavaruus ratkaisee tämän perusongelman käytännössä lopullisesti.
 
-Eipä muutos ole järin vilkkaasti edennyt myöskään teleoperaattoreilla:
+Suomessa teleoperaattorit ovat edenneet vaihtelevasti:
+- DNA oli edelläkävijä ja toi laajan IPv6-tuen jo 2014–2015 ([DNA Oyj, 2015](https://www.sttinfo.fi/tiedote/27522180/dna-is-leading-the-way-in-ipv6-adoption-in-finland)).
+- Elisa ja Telia seurasivat perässä, ja vuonna 2024 kaikkien suurten operaattorien kattavuus oli jo yli 90 prosenttia ([Wikipedia](https://en.wikipedia.org/wiki/IPv6_deployment)).
 
-- DNA oli Suomen edelläkävijöitä IPv6:n käyttöönotossa. Vuonna 2014 DNA otti käyttöön laajamittaisen IPv6-tuen mobiililiittymiin, ja vuonna 2015 se oli jo Suomen suurin IPv6-operaattori ([DNA Oyj, 2015](https://www.sttinfo.fi/tiedote/27522180/dna-is-leading-the-way-in-ipv6-adoption-in-finland) [RIPE 71 Conference: DNA Finland IPv6](https://ripe71.ripe.net/presentations/163-RIPE71-IPv6-deployment-experiences-from-DNA.pdf)).
+Konsultti ei työskentele samassa toimistossa aina. Matkapuhelinoperaattorin 5G-liittymän täytyy myös tarjota IPv6-tuki, jotta työt sujuvat.
 
-- Elisa ja Telia tulivat mukaan myöhempänä, mutta nykytilanteessa molemmat tukevat IPv6:a laajasti. Vuonna 2024 kaikkien kolmen suuren operaattorin IPv6-kattavuus oli yli 90 prosenttia ([Wikipedia: IPv6 deployment - Finland](https://en.wikipedia.org/wiki/IPv6_deployment)).
+Nykyään suuret sähköpostipalvelut (Gmail, Yahoo, Outlook) tukevat molempia protokollia, ja IPv6 on usein suoraviivaisempi vaihtoehto ilman NAT-välityksen aiheuttamia viiveitä.
 
-- Elisan 5G-liittymät tukevat IPv6:a – tämä on olennaista liikkuvassa työssä. Konsultti ei työskentele päivittäin samassa toimistossa.
+Tässä projektissa tavoitteenani oli:
+- Vähentää turhia kustannuksia poistamalla IPv4-osoitteet palvelimilta, joilla niitä ei tarvita (kuten toimiston ja palvelinalustan väliset yhteydet).
+- Varmistaa sähköpostin toimitusvarmuus tulevaisuudessakin.
+- Parantaa palvelujen saavutettavuutta ja varautua aikaan, jolloin IPv6 on oletusarvo.
+- Päästä eroon kikkailuista, kuten porttiohjauksista tai [Hairpin NAT:sta](https://help.ui.com/hc/en-us/articles/30202160464023-Hairpin-NAT-in-UniFi), hyödyntämällä suoria IPv6-yhteyksiä.
 
-Nykytilanteessa palveluntarjoajat tarjoavat IPv6:n oletuksena, asiakkaat ovat yhä useammin dual-stack-yhteystekniikoilla, ja suuret sähköpostipalvelut (Gmail, Yahoo, Outlook) tukevat molempia protokollia. Viiveet IPv4:ssä voivat johtua CGNAT-ongelmista, kun taas IPv6 on usein suoraviivaisempi ilman NAT-välitystä.
-
-Tämä ei ollut pelkästään sähköpostipalvelimen IPv6-lisäys. Samassa yhteydessä
-lisättiin IPv6-tuki muihinkin [Karidea Oy](https://www.karidea.fi):n ylläpitämiin palveluihin.
-
-Vaikka kyseessä oli työprojekti, kerron nyt aiheesta täällä henkilökohtaisessa blogissa. Ehkä jatkossa saatte kuulla näistä asioista uutiskirjeessä tms. Mutta se on sitten toisen projektin aihe.
-
-Tiivistettynä tavoitteet tässä projektissa:
-
-- Ensisijaisesti: pelkästään IPv6 palvelimille, joille yleistä pääsyä IPv4-osoitteilla ei tarvita (mm. toimiston ja palvelinalustan välinen yhteys)
-   - kalliista IPv4-osoitteesta ei tarvitse maksaa turhaan 
-- Sähköpostin toiminta- ja toimitusvarmuus myös tulevaisuudessa (IPv4 osoitteet harvinaistuvat)
-- Palvelujen saavutettavuus kaikilta verkkoilta (jotka käyttävät IPv6:sta)
-- Valmistautuminen tulevaisuuteen, jossa IPv6 on oletus eikä poikkeus
-- Samalla suorituskykypotentiaali paranee (ei NAT-kulun kautta)
-   - Suora yhteys tietyille laitteille IPv6-osoitteella - ei enää tarvetta [porttiohjauksille](https://en.wikipedia.org/wiki/Port_forwarding) tai [Hairpin NAT:lle](https://help.ui.com/hc/en-us/articles/30202160464023-Hairpin-NAT-in-UniFi)
+Vaikka kyseessä oli Karidea Oy:n työprojekti, kirjoitan tästä täällä henkilökohtaisessa blogissani. Ehkä myöhemmin näistä tulee asiaa uutiskirjeeseen, mutta se on sitten toisen kerran aihe.
 
 
 ## Sähköpostin Erityisvaatimukset
@@ -53,7 +44,7 @@ Tiivistettynä tavoitteet tässä projektissa:
 Sähköpostipalvelimen IPv6-lisäys on monimutkaisempaa kuin tavallinen
 web-palvelin:
 
-### 1. FCrDNS ([Forward-confirmed Reverse DNS](https://en.wikipedia.org/wiki/Forward-confirmed_reverse_DNS)) - Kriittisin Vaatimus
+### 1. FCrDNS ([Forward-confirmed Reverse DNS](https://en.wikipedia.org/wiki/Forward-confirmed_reverse_DNS))
 
 Kaikki kolme täytyvät täsmätä:
 - Forward DNS (AAAA-tietue)
@@ -63,7 +54,7 @@ Kaikki kolme täytyvät täsmätä:
 Jos yksi näistä puuttuu tai ei täsmää, sähköpostit menevät roskapostiin tai
 hylätään kokonaan.
 
-PTR-tietueita eli IP-osoitteen käänteistä nimeä, jolla tiettyä IP-osoitetta vastaava nimi voidaan selvittää, ei määritellä verkkotunnuksen DNS-palvelussa. Se täytyy muuttaa kyseisen verkon operoinnin toimesta, eli yleensä sillä alustalla, missä itse palvelun toteutetaan (hosting provider).
+PTR-tietueita eli IP-osoitteen [käänteistä nimeä](https://en.wikipedia.org/wiki/Reverse_DNS_lookup), jolla tiettyä IP-osoitetta vastaava nimi voidaan selvittää, ei määritellä verkkotunnuksen DNS-palvelussa. Se täytyy muuttaa kyseisen verkon operoinnin toimesta, eli yleensä sillä alustalla, missä itse palvelin toimii (hosting provider).
 
 ### 2. SPF (Sender Policy Framework)
 
@@ -90,43 +81,25 @@ Vuoden 2024 helmikuusta lähtien suurten sähköpostipalveluiden vaatimukset:
 - Spam-prosentti alle 0,3 %
 - Suurten lähettäjien (>5000 viestiä/päivä): kaikki kolme (SPF+DKIM+DMARC)
 
-## IPv4 vs. IPv6 Käyttäytyminen
+## IPv4 vs. IPv6 Käyttäytyminen: Liikkuvat osoitteet ja kustannukset
 
-### Nopeutunut käyttökokemus
+Meidän urakassamme jäi (ainakin) yksi ero IPv4- ja IPv6-maailmojen välille. Se liittyy osoitteiden hallintaan. Ja johtuu oikeastaan laiskuudesta, sillä emme nyt halunneet käyttää tähän aikaa.
 
-Muutossa tehdessä tein havainnon, että palvelut tuntuivat toimivan nopeammin ja sujuvammin, kuin ennen. En pitänyt tätä kovin mahdollisena todellisuutena, vaan enemmänkin ajattelin, että kyseessä on vahvistusharha.
+### Liikkuva IPv4 (Floating IP)
 
-Kysyin asiaa tietysti tekoälyllä ja yhdessä löysimmekin vahvistuksen sille, että IPv6-osoitteeseen siirtyminen voi nopeuttaa liikennettä ja ennen kaikkea vähentää viivettä, joka pakettiliikenteessä on harmillisen haitallista. Nykyisissä moderneissa web-toteutuksissa se korostuu, kun yksittäiseen sivulataukseen saattaa sisältyä lukematon määrä erilaisten yksittäisten tiedostojen lataamista.
+Sähköpostipalvelinta pystytettäessä otimme alusta alkaen käyttöön [liikkuvan IPv4-osoitteen](https://docs.hetzner.com/cloud/floating-ips/getting-started/adding-a-floating-ip/) (Floating IP). Tämä mahdollistaa IP-osoitteen siirtämisen palvelimelta toiselle ilman, että DNS-tietueita tarvitsee muuttaa. Se on eräänlainen vakuutus vikatilanteita varten, jolloin palvelu voidaan siirtää nopeasti uudelle instanssille. Tästä lystistä joutuu maksamaan noin 1–2 €/kk.
 
-### IPv4 – Liikkuva IP (Floating IP)
+### IPv6 – Kiinteä osoite vai liikkuva aliverkko?
 
-Shäköpostipalvelimen toteuttamisen yhteydessä otimme alusta lähtien käyttöön [liikkuvan](https://docs.hetzner.com/cloud/floating-ips/getting-started/adding-a-floating-ip/) IPv4-osoitteen. IPv6:lle emme tätä aluksi tehneet. Liikkuva osoite mahdollistaa IP-osoitteen siirtämisen palvelimelta toiselle jos palvelimen vaihto joskus tulee aiheelliseksi.
+IPv6:lle emme aluksi tehneet samaa. Oletuksena IPv6-osoite on sidottu tiettyyn instanssiin. Jos palvelinta joutuu siirtämään:
+1. Uusi palvelin saa uuden IPv6-osoitteen.
+2. DNS:n AAAA-tietue on päivitettävä manuaalisesti.
+3. On odotettava TTL-ajan (Time to Live) umpeutumista (oletuksena jopa 12 tuntia), jotta uusi osoite päivittyy kaikkialle.
 
-- Voidaan siirtää toiseen palvelimeen ilman DNS-muutoksia
-- Maksaa noin 1-2 €/kk
-- Mahdollistaa nopean vikatilanteesta toipumisen
+Toki Hetzner tarjoaa myös liikkuvia IPv6-aliverkkoja (esim. /112), mutta se nostaisi kustannuksia noin 2–5 €/kk lisää. Koska sähköpostipalvelimen siirrot ovat harvinaisia ja liikkuva IPv4 takaa joka tapauksessa viestien kulun, tein taloudellisen päätöksen:
+> älä osta liikkuvaa IPv6-osoitetta
 
-### IPv6 – Kiinteä osoite
-- Sidottu tiettyyn instanssiin (palvelimeen)
-- Siirrettäessä uusi palvelin saa UUDEN IPv6-osoitteen
-- DNS:n AAAA-tietue pitää päivittää manuaalisesti
-- Toiminta-ajaksi: TTL-ajan odotus (≈ 12 tuntia)
-- Voidaan ennalta lyhentää 300 sekuntiin (5 minuuttia) ennen migraatiota
-
-Eli palvelimen yllättävässä virhetilanteessa, johon ei voida ennalta varautua, IPv6-osoite vaihtuu. Vaihtumisen yhteydessä voi kestää jopa vuorokausi ennen kuin kaikki päätelaitteet oppivat uuden muuttuneen osoitteen.
-
-Jos muutokseen voidaan varautua etukäteen, voidaan ennalta lyhentää osoitteen välimuistuaikaa ([TTL - Time to Live](https://en.wikipedia.org/wiki/Time_to_live))
-
-### Taloudellinen Päätös: Ostetaanko Floating IPv6?
-
-Hetzner tarjoaa IPv6-aliverkkoja (esim. /112), joita voidaan liikkuttaa.
-Mutta:
-- Lisäkustannus: noin 2-5 €/kk
-- Yksittäinen IPv6-osoite ei liiku, vain aliverkot
-- Sähköpostipalvelimen siirrot tapahtuvat harvoin (vuosia välein)
-- IPv4 floating IP jo takaa sähköpostin jatkuvuuden
-
-**Päätös:** Älä osta floating IPv6:tta. Dokumentoi migraatioprosessi sen sijaan.
+Sen sijaan dokumentoin migraatioprosessin tarkasti (tähän blogiin 😉) ja lyhennän DNS:n TTL-ajat hyvissä ajoin, jos tiedossa on suunniteltu muutos.
 
 ## Konfiguraatio
 
@@ -135,7 +108,7 @@ Mutta:
 Varmistimme, että:
 - Postfix: `inet_protocols = all`
 - Dovecot: `listen = *, [::]`
-- SMTP-bannerit osoittavat oikeaan [FQDN](https://en.wikipedia.org/wiki/Fully_qualified_domain_name):hen
+- SMTP-bannerit osoittavat oikeaan nimeen ([FQDN](https://en.wikipedia.org/wiki/Fully_qualified_domain_name))
 
 ### DNS-puoli
 
@@ -152,26 +125,25 @@ Pyysimme palveluntarjoajalta PTR-tietueen asetuksen:
 
 ## Testaus
 
-Käytimme `nc` (netcat) telnetin sijaan kokeillaksemme, että IPv6-osoitteella yhteys palvelimeen saadaan.
+Käytimme `nc` ([netcat](https://en.wikipedia.org/wiki/Netcat)) telnetin sijaan kokeillaksemme, että IPv6-osoitteella yhteys palvelimeen saadaan.
 Varmistettiin myös:
 - Forward lookup: `dig AAAA email.karidea.fi +short`
 - Reverse lookup: `dig -x [IPv6-osoite] +short`
 - Molempien täytyi palauttaa sama FQDN
 
-## Suorituskykyhavainto
+## Suorituskykyhavainto: Huomasinko eron?
 
-Palveluiden siirtäminen IPv6:een toi mukanaan odottamattoman hyödyn:
+Projektin aikana tein mielenkiintoisen havainnon: palvelut tuntuivat toimivan nopeammin ja sujuvammin kuin ennen. Epäilin ensin [vahvistusharhaa](https://fi.wikipedia.org/wiki/Vahvistusharha), mutta yhdessä tekoälyn kanssa löysimme useita teknisiä syitä, jotka puoltavat tätä kokemusta.
 
-**Havainto:** Palvelinten käyttö tuntuu suoremmalta ja nopeammalta.
+IPv6 voi todellakin vähentää viivettä, mikä on kriittistä nykyisissä web-toteutuksissa, joissa yksi sivulataus vaatii lukuisia pieniä pyyntöjä.
 
-**Mahdolliset syyt:**
-- **Ei NAT:** IPv4 vaatii usein CGNAT-kulun (carrier-grade NAT), joka lisää viiveitä
-- **Uudempi infra:** IPv6-reititys kulkee useimmiten uudemmilla laitteistoilla
-- **Suorempi peering:** IPv6-verkkojen välillä on usein suorampia yhteyksiä
-- **Parempi MTU:** IPv6 sallii suurempia paketteja, vähemmän jakautumista
+**Mahdolliset syyt nopeutumiselle:**
+- **Ei NAT-viivettä:** IPv4 vaatii usein CGNAT-välityksen (carrier-grade NAT). Jos ei mitään muuta, niin ainakin edullinen ja hidas toimistoreitittimemme käyttää NAT-välitystä.
+- **Parempi infra ja reititys:** IPv6-liikenne kulkee usein uudemmilla laitteilla ja suorempia peering-yhteyksiä pitkin.
+- **Optimoitu MTU:** IPv6 sallii suuremmat paketit ja vähentää pakettien jakautumista (fragmentaatiota).
+   - myös [suuret paketit](https://en.wikipedia.org/wiki/Jumbo_frame) otettiin samassa yhteydessä käyttöön
 
-Tämä on havainto, ei take. Mutta monet muutkin ovat raportoineet samanlaisia
-kokemuksia siirryttäessä IPv4 → IPv6.
+Vaikka tämä on enemmän havainto kuin lupaus, moni muukin on raportoinut vastaavasta suorituskyvyn parantumisesta siirtyessään pois IPv4:stä.
 
 ## Migraatiosuunnitelma: Jos Palvelinta Joudutaan Siirtämään
 
@@ -198,41 +170,29 @@ Vaikka emme ostaneet floating IPv6:tta, on prosessi dokumentoitu:
 
 ## Tärkeimmät opit
 
-✅ **Ennen kuin aloitat:**
-- Ymmärrä FCrDNS-vaatimuksien kriittisyys
-- Tiedä, kenellä PTR-tietueiden hallinta on (palveluntarjoaja)
-- Lue Gmail/Yahoo vaatimukset (2024)
-- Varmista, että alustapalveluntarjoasi tukee IPv6-osoitteistoa
-- Tarkista, että käyttämäsi mahdollinen konttitoteutuksesi (esim. [Docker](https://docs.docker.com/engine/daemon/ipv6/)) on IPv6-yhteensopiva
+### Ennen kuin aloitat
+* Ymmärrä FCrDNS-vaatimusten kriittisyys.
+* Varmista, kuka hallitsee PTR-tietueita (yleensä palveluntarjoaja).
+* Tutustu suurten sähköpostipalveluiden vaatimuksiin (Gmail/Yahoo 2024).
+* Varmista, että koko pinosi – mukaan lukien Docker-kontit – tukee IPv6:ta.
 
-⚠️ **Huomioitavaa:**
-- IPv4 ja IPv6 käyttäytyvät eri tavoin palveluntarjoajalla
-- IPv6 PTR:tä ei voi itse hallita
-- Migraatiossa IPv6 vaatii manuaalisen DNS-päivityksen
-- TTL-ajoitus vaikuttaa keskeytyksen kestoon
+### Huomioitavaa
+* IPv6-osoitteen PTR-tietuetta ei voi hallita itse DNS-paneelista.
+* Migraatiossa IPv6 vaatii manuaalisen DNS-päivityksen, ellet maksa liikkuvasta aliverkosta.
+* TTL-arvojen hallinta on avainasemassa keskeytysten minimoimiseksi.
 
-💡 **Mielenkiintoiset havainnot:**
-- `v=spf1 mx a -all` kattaa automaattisesti sekä IPv4 että IPv6
-- IPv6 voi todellisuudessa olla nopeampaa (ei NAT)
-- Floating IPv6 on kallis vakuutus harvinaista tapahtumaa vastaan
+### Oivallukset
+* `v=spf1 mx a -all` on nerokas: se kattaa automaattisesti molemmat IP-versiot ilman lisämääreitä.
+* IPv6 ei ole vain tulevaisuutta, se on usein jo nyt suorituskykyisempi.
+* Aina ei kannata maksaa "liikkuvuudesta", jos hyvä dokumentaatio ja valmistautuminen riittää.
 
-📚 **Materiaalit:**
-- Mailcow-dokumentaatio: https://docs.mailcow.email
-- Gmail-sähköpostilähettäjän ohjeet: https://support.google.com/mail/answer/81126
-- RFC 7208 (SPF): https://datatracker.ietf.org/doc/html/rfc7208
+## Hyödyllisiä linkkejä ja materiaaleja
+* [Mailcow-dokumentaatio](https://docs.mailcow.email)
+* [Gmail-sähköpostilähettäjän ohjeet](https://support.google.com/mail/answer/81126)
+* [RFC 7208 (SPF)](https://datatracker.ietf.org/doc/html/rfc7208)
 
 ## Loppusanat
 
-Tämä IPv6-migraatio oli enemmän kuin pelkkä tekninen päivitys. Se oli
-valmistautuminen tulevaisuuteen, jossa IPv6 on oletus, ja IPv4 jää
-taaksepäin yhteensopivuuden vuoksi.
+Tämä IPv6-migraatio oli enemmän kuin pelkkä tekninen päivitys. Se oli askel kohti aikaa, jolloin IPv6 on oletus ja IPv4 enää vain jäänne menneisyydestä.
 
-Erityisen tärkeää oli ymmärtää, että sähköpostipalvelimilla ei ole
-varaa virheisiin. FCrDNS, SPF, DKIM ja DMARC ovat vaatimuksia, ei
-valinnaisia ominaisuuksia.
-
-Jos teet samanlaisia ratkaisuja, muista:
-- Testaa perusteellisesti ennen tuotantoon vientiä
-- Dokumentoi prosessi, jos tulee siirtoja
-- Tee kokeellisia havaintoja (kuten suorituskyky)
-- Pidä taloudelliset harkintasi mielessä (floating IPv6 vs. dokumentaatio)
+Erityisen tärkeää oli ymmärtää, ettei sähköpostipalvelimilla ole varaa virheisiin. FCrDNS, SPF, DKIM ja DMARC ovat välttämättömyyksiä. Jos suunnittelet vastaavaa, muista testata kaikki perusteellisesti, dokumentoida prosessi ja nauttia suoraviivaisemmista yhteyksistä.
