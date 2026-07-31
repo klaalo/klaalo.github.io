@@ -26,7 +26,7 @@ Suomessa teleoperaattorit ovat edenneet vaihtelevasti:
 - DNA oli edelläkävijä ja toi laajan IPv6-tuen jo 2014–2015 ([DNA Oyj, 2015](https://www.sttinfo.fi/tiedote/27522180/dna-is-leading-the-way-in-ipv6-adoption-in-finland)).
 - Elisa ja Telia seurasivat perässä, ja vuonna 2024 kaikkien suurten operaattorien kattavuus oli jo yli 90 prosenttia ([Wikipedia](https://en.wikipedia.org/wiki/IPv6_deployment)).
 
-- Konsultti ei aina työskentele samassa toimistossa. Matkapuhelinoperaattorin 5G-liittymän täytyy myös tarjota IPv6-tuki, jotta työt sujuvat.
+Konsultti ei aina työskentele samassa toimistossa. Myös matkapuhelinoperaattorin 5G-liittymän täytyy tarjota IPv6-tuki, jotta työt sujuvat.
 
 Nykyään suuret sähköpostipalvelut (Gmail, Yahoo, Outlook) tukevat molempia protokollia, ja IPv6 on usein suoraviivaisempi vaihtoehto ilman NAT-välityksen aiheuttamia viiveitä.
 
