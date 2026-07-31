@@ -127,7 +127,7 @@ Pyysimme palveluntarjoajalta PTR-tietueen asetuksen:
 
 Käytimme `nc` ([netcat](https://en.wikipedia.org/wiki/Netcat)) telnetin sijaan kokeillaksemme, että IPv6-osoitteella yhteys palvelimeen saadaan.
 Varmistettiin myös:
-- Forward lookup: `dig AAAA email.karidea.fi +short`
+- Forward lookup: `dig AAAA email.example.com +short`
 - Reverse lookup: `dig -x [IPv6-osoite] +short`
 - Molempien täytyi palauttaa sama FQDN
 
@@ -143,11 +143,15 @@ IPv6 voi todellakin vähentää viivettä, mikä on kriittistä nykyisissä web-
 - **Optimoitu MTU:** IPv6 sallii suuremmat paketit ja vähentää pakettien jakautumista (fragmentaatiota).
    - myös [suuret paketit](https://en.wikipedia.org/wiki/Jumbo_frame) otettiin samassa yhteydessä käyttöön
 
-Vaikka tämä on enemmän havainto kuin lupaus, moni muukin on raportoinut vastaavasta suorituskyvyn parantumisesta siirtyessään pois IPv4:stä.
+Vaikka tämä on enemmän havainto kuin lupaus, moni muukin on raportoinut vastaavasta suorituskyvyn parantumisesta siirtyessään IPv6:n käyttöön. Esimerkiksi Akamai ja LinkedIn ovat havainneet, että IPv6-yhteydet voivat olla merkittävästi nopeampia vähentämällä NAT-välityksen ja muiden välivaiheiden tarvetta ([Internet Society, 2017](https://www.internetsociety.org/resources/doc/2017/state-of-ipv6-deployment-2017)). Myös Apple raportoi WWDC 2020 -tapahtumassa, että yhteyden muodostus on keskimäärin 1,4 kertaa nopeampaa IPv6-verkossa. On hyvä huomata, että vaikka IPv6 otetaan käyttöön, IPv4 jää tietysti edelleen rinnalle varmistamaan saavutettavuuden kaikkialta.
 
-## Migraatiosuunnitelma: Jos Palvelinta Joudutaan Siirtämään
+## Migraatiosuunnitelma: jos palvelinta joudutaan siirtämään
 
-Vaikka emme ostaneet floating IPv6:tta, on prosessi dokumentoitu:
+Vaikka emme ostaneet liikkuvaa IPv6:tta, on prosessi dokumentoitu (tähän blogiin 😉). Tämä kappale pysyy nyt mukana artikkelissa, mutta rehellisyyden nimissä, tätä yksityiskohtaa ei ole dokumentoitu muualle.
+
+Suuremmassa yrityksessä tietysti tällainen poikkeama ei jäisi voimaan, vaan korjattaisiin heti. Me pystymme tämän muistamaan ja huomaamme kyllä, jos asia tulee eteen. Asia ei ole myöskään mitään rakettitiedettä kokeneelle asiantuntijalle, vaikka tekoäly näyttää sen kovin suureksi asiaksi nostavan.
+
+Jätän siis tämän osion nyt tänne teidän luettavaksenne ihan vaikka anekdoottina.
 
 ### Ennen migraatiota (48 tuntia etukäteen)
 - Laske AAAA-tietueen TTL arvosta ~12h arvoon ~5min
@@ -159,7 +163,7 @@ Vaikka emme ostaneet floating IPv6:tta, on prosessi dokumentoitu:
 - Uusi palvelin saa uuden IPv6-osoitteen
 - Päivitä DNS-AAAA-tietue viipymättä
 - Odota 5-10 minuuttia TTL:n vanhentumiseksi
-- Verifioi yhteys (`nc -6 email.karidea.fi 587`)
+- Verifioi yhteys (`nc -6 email.example.com 587`)
 - Testaa sähköpostien toiminta
 
 ### Jälkeen
@@ -190,9 +194,3 @@ Vaikka emme ostaneet floating IPv6:tta, on prosessi dokumentoitu:
 * [Mailcow-dokumentaatio](https://docs.mailcow.email)
 * [Gmail-sähköpostilähettäjän ohjeet](https://support.google.com/mail/answer/81126)
 * [RFC 7208 (SPF)](https://datatracker.ietf.org/doc/html/rfc7208)
-
-## Loppusanat
-
-Tämä IPv6-migraatio oli enemmän kuin pelkkä tekninen päivitys. Se oli askel kohti aikaa, jolloin IPv6 on oletus ja IPv4 enää vain jäänne menneisyydestä.
-
-Erityisen tärkeää oli ymmärtää, ettei sähköpostipalvelimilla ole varaa virheisiin. FCrDNS, SPF, DKIM ja DMARC ovat välttämättömyyksiä. Jos suunnittelet vastaavaa, muista testata kaikki perusteellisesti, dokumentoida prosessi ja nauttia suoraviivaisemmista yhteyksistä.
