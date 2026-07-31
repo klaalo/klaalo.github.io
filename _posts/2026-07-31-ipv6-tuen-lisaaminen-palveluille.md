@@ -32,8 +32,8 @@ Nykyään suuret sähköpostipalvelut (Gmail, Yahoo, Outlook) tukevat molempia p
 
 Tässä projektissa tavoitteenani oli:
 - Vähentää turhia kustannuksia poistamalla IPv4-osoitteet palvelimilta, joilla niitä ei tarvita (kuten toimiston ja palvelinalustan väliset yhteydet).
-- Varmistaa sähköpostin toimitusvarmuuden tulevaisuudessakin.
-- Parantaa palvelujen saavutettavuutta ja varautua aikaan, jolloin IPv6 on oletusarvo.
+- Varmistaa sähköpostin toimitusvarmuus tulevaisuudessakin.
+- Parantaa palvelujen saatavuutta ja varautua aikaan, jolloin IPv6 on oletusarvo.
 - Päästä eroon kikkailuista, kuten porttiohjauksista tai [Hairpin NAT:sta](https://help.ui.com/hc/en-us/articles/30202160464023-Hairpin-NAT-in-UniFi), hyödyntämällä suoria IPv6-yhteyksiä.
 
 Vaikka kyseessä oli Karidea Oy:n työprojekti, kirjoitan tästä täällä henkilökohtaisessa blogissani. Ehkä myöhemmin näistä tulee asiaa uutiskirjeeseen, mutta se on sitten toisen kerran aiheena.
@@ -41,7 +41,7 @@ Vaikka kyseessä oli Karidea Oy:n työprojekti, kirjoitan tästä täällä henk
 
 ## Sähköpostin erityisvaatimukset
 
-Sähköpostipalvelimen IPv6-lisäys on vaativampi tehtävä, kuin vaikka tavanomaisen web-palvelun ostalta.
+Sähköpostipalvelimen IPv6-lisäys on vaativampi tehtävä, kuin vaikka tavanomaisen web-palvelun osalta.
 
 ### 1. FCrDNS ([Forward-confirmed Reverse DNS](https://en.wikipedia.org/wiki/Forward-confirmed_reverse_DNS))
 
