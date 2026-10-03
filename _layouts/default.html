@@ -26,6 +26,17 @@ layout: compress
 
 		{% endif %}
 
+		{% if page.gallery %}
+			<script src="{{site.baseurl}}/assets/glightbox/glightbox.min.js"></script>
+			<script>
+				const lightbox = GLightbox({
+					selector: '.glightbox',
+					touchNavigation: true,
+					loop: true
+				});
+			</script>
+		{% endif %}
+
 	</body>
 
 </html>

@@ -26,6 +26,9 @@
 <link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/touch-icon.png">
 <link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/core.css">
+{% if page.gallery %}
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/glightbox/glightbox.min.css">
+{% endif %}
 <link rel="canonical" href="{{ page.url | prepend: site.baseurl }}">
 <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}/feed.xml" />
 

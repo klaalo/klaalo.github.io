@@ -1,0 +1,12 @@
+<div class="gallery-grid">
+  {% for item in page.gallery %}
+    <figure class="gallery-item">
+      <a href="{{ item.url }}" class="glightbox" data-gallery="post-gallery" data-title="{{ item.title | escape }}" data-description="{{ item.caption | escape }}">
+        <img src="{{ item.thumb | default: item.url }}" alt="{{ item.alt | default: item.title | escape }}" loading="lazy">
+      </a>
+      {% if item.caption %}
+        <figcaption class="gallery-caption">{{ item.caption }}</figcaption>
+      {% endif %}
+    </figure>
+  {% endfor %}
+</div>
