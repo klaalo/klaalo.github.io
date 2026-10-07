@@ -118,7 +118,7 @@ Kymmenen vuoden kuluttua Petikossa on joko maksullinen harvojen pelaajien käytt
 
 Kentän katsotaan kattavan käyttökulunsa noin 15 700 kierroksella ja kertakustannukset takaisin vuonna 2030. Tämä edellyttää, että avausvuonna 2028 pelataan lähes 24 000 kierrosta kentällä, jossa ei ole klubirakennusta eikä harjoitusaluetta, ja jonka palveluinfrastruktuuri on väliaikaisissa konteissa. Vertailukohta Paloheinä on rakentanut 47 000 kierroksen volyyminsä vuosikymmenien varaan.
 
-Hankesuunnitelma toteaa sen itsekin. Golfpisteen konsultoimien asiantuntijoiden arvio arvio kunnostuksen hinnasta on vähintään noin 1,5 miljoonaa euroa, kun päätöksenteko perustuu 345 000 euron kattoon. Urakkatarjoukset aukeavat vasta lautakuntapäätöksen jälkeisenä päivänä: **lautakunta ei päätöshetkellään tiedä, mitä kunnostus oikeasti maksaa**.
+Hankesuunnitelma toteaa sen itsekin. Golfpisteen konsultoimien asiantuntijoiden arvio kunnostuksen hinnasta on vähintään noin 1,5 miljoonaa euroa, kun päätöksenteko perustuu 345 000 euron kattoon. Urakkatarjoukset aukeavat vasta lautakuntapäätöksen jälkeisenä päivänä: **lautakunta ei päätöshetkellään tiedä, mitä kunnostus oikeasti maksaa**.
 
 Jos kierrosmäärät jäävät pienemmiksi, tappion kattaa kaupungin budjetti. Silloin ylläpidetään verovaroilla maksullista liikuntapalvelua, joka kilpailee markkinalla, jolla on jo toimivia yksityisiä ja osuuskuntamuotoisia tarjoajia.
 
@@ -128,7 +128,7 @@ Hallintamallista — operoiko kaupunki kenttää itse, vuokraako sen operaattori
 
 Liikuntalain 5 §:n mukaan kunta ei liikuntatehtäviään hoitaessaan toimi kilpailutilanteessa markkinoilla, ellei tehtäviä toteuteta liiketoiminnallisin tavoittein. Kuntalaki edellyttää, että taloudellista toimintaa harjoittava kunta joko yhtiöittää toiminnan tai hinnoittelee sen markkinaperusteisesti.
 
-Maksullinen golfkenttä on hyvin todennäköinen liikuntapalvelu, jonka kohdalla raja vapaan markkinaehtoisen kilpailun polkemisesta joutuu kokeiluun. Kilpailu- ja kuluttajaviraston toimenpidettä kannata pitää kaukaisena riskinä, kun hankesuunnitelman oma riskitaulukko listaa sen. Kun hinnoittelun täytyy olla markkinaehtoista, on vaikea ymmärtää, miten kenttä voi houkutella pidempään ja pidemmälle kehittyneiden kilpailijoidensa kanssa siten, että kannattavuustavoite voisi täyttyä.
+Maksullinen golfkenttä on hyvin todennäköinen liikuntapalvelu, jonka kohdalla raja vapaan markkinaehtoisen kilpailun polkemisesta joutuu kokeiluun. Kilpailu- ja kuluttajaviraston toimenpidettä ei kannata pitää kaukaisena riskinä, kun hankesuunnitelman oma riskitaulukko listaa sen. Kun hinnoittelun täytyy olla markkinaehtoista, on vaikea ymmärtää, miten kenttä voi houkutella pidempään ja pidemmälle kehittyneiden kilpailijoidensa kanssa siten, että kannattavuustavoite voisi täyttyä.
 
 Kaupungin pitäisi pystyä osoittamaan, että golf-kentän ylläpito on merkittävää kansalaisten hyvinvointiin liittyvien tehtävien hoitamisessa.
 
@@ -152,8 +152,8 @@ Kuten [Pohjois-Suomen kunnissa on nähty](https://yle.fi/a/74-20110711), tällai
 
 Typerästä ja suorastaan hävyttömästä golf-unelmasta täytyy Petikossa jo vihdoin luopua. Golf-kenttä katkaisisi ekologiset runkoyhteydet ja haittaisi alueen käyttöä retkeily- ja virkistystoimintaan. Pitkällä tähtäimellä alue täytyy yleiskaavassa muuttaa merkinnälle `VR`.
 
-1. Lautakunnan täytyy palauttaa hankesuunnitelma uuteen valmisteluun neljännellä vaihtoehdolla, jossa alue annetaan luonnolliselle kehitykselle: rakenteet poistetaan, vieraslajit torjutaan lakisääteisesti, golf-kentän rakenteita palvelevaksi tarkoitetut pumppaamot puretaan ja alueelle ei rakenneta mitään uutta. Tarkastelua kestämättömät väitteet upotetuista kustannuksista täytyy lähestyä rehellisesti ja moraalisesti. Golf-toimintaa on käytetty rikoshyödyn tavoittelemiseksi. Samaa toimintaa, joka johti rikostuomioihin, ei pidä jatkaa.
+1. Lautakunnan täytyy palauttaa hankesuunnitelma uuteen valmisteluun neljännellä vaihtoehdolla, jossa alue annetaan luonnolliselle kehitykselle: rakenteet poistetaan, vieraslajit torjutaan lakisääteisesti, golf-kentän rakenteita palvelevaksi tarkoitetut pumppaamot puretaan ja alueelle ei rakenneta mitään uutta. Tarkastelua kestämättömiä väitteitä upotetuista kustannuksista täytyy lähestyä rehellisesti ja moraalisesti. Golf-toimintaa on käytetty rikoshyödyn tavoittelemiseksi. Samaa toimintaa, joka johti rikostuomioihin, ei pidä jatkaa.
 
-2. Lautakunta linjaa, että seuraavassa yleiskaavan uudistuksessa alueen kaavamerkintä muutetaan merkinnästä `VU` merkintään `VR`. Näin alueen luonto- ja maisema-arvojen säilyminen varmistetaan ja alueen retkeilykäyttö mahdollistetaan. Alueen annetaan kehittyä lunnollisen sukkesion kautta vahvistaen Vantaan hiilitasetta.
+2. Lautakunta linjaa, että seuraavassa yleiskaavan uudistuksessa alueen kaavamerkintä muutetaan merkinnästä `VU` merkintään `VR`. Näin alueen luonto- ja maisema-arvojen säilyminen varmistetaan ja alueen retkeilykäyttö mahdollistetaan. Alueen annetaan kehittyä lunnollisen sukkession kautta vahvistaen Vantaan hiilitasetta.
 
 **Kysymys ei ole golfin arvostelusta lajina**. Kysymys on siitä, millaista toimintaa julkisella maalla harjoitetaan, kun vaihtoehtona on maksuton, kaikille avoin ja itsestään arvoaan kasvattava lähiluonto — kaupungin mailla, joilla ympäristörikos saatiin tapahtumaan.
