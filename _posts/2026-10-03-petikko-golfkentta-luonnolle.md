@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Petikon golfkenttä täytyy jättää luonnolle"
-date: 2026-10-07 08:13
+date: 2026-10-03 18:36
 gallery:
   - url: "https://misc.karilaalo.fi/pics/petikko/IMG_7608.jpg"
   - url: "https://misc.karilaalo.fi/pics/petikko/IMG_7609.jpg"
