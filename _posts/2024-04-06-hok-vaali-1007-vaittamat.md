@@ -2,6 +2,7 @@
 layout: post
 title: "Väittämäni HOK-Elannon vaaleissa 1007"
 date: "2024-04-06 18:49:00 +0300"
+category: vaalit
 ---
 
 Muista äänestää! [HOK:n vaalisivuilta](https://hok-elanto.fi/edustajistovaalit/) löydät tarkemman ohjeet. HOK arpoo äänestäneiden henkilöjäsenten kesken rahanarvoisia palkintoja. Myös tästä on lisätietoa vaalisivulla.

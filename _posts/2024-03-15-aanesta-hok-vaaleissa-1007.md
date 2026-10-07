@@ -2,6 +2,7 @@
 layout: post
 title: "Äänestä HOK-Elannon vaaleissa 1007"
 date: "2024-03-15 20:45:00 +0300"
+category: vaalit
 ---
 
 Olen ehdolla HOK-Elannon edustajistoon ehdokasnumerolla 1007. Vaaleissa voi äänestää 10.-22.4.2024. Vaalikirjeet postitetaan HOK-Elannon äänioikeutetuille jäsenille 3.4.2024 alkaen. Tulokset [julkaistaan](https://osuuskauppavaalit.fi/hok-elanto) 3.5.2024.
