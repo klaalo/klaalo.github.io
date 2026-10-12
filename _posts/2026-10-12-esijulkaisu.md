@@ -44,7 +44,7 @@ Sinun ei siis tarvitse rekisteröityä mihinkään tai ottaa käyttöön mitää
 
 ## Tekniikasta kiinnostuneelle
 
-Ratkaisu rakentuu olemassa olevan julkaisukanavan rinnalle ilman, että itse sivun sisältöä tai julkaisuprosessia tarvitsee muuttaa. Sivusto on rakennettu staattiseksi: [Jekyll](https://jekyllrb.com/)-moottori kokoaa tekstit ja asettelun valmiiksi havaittaviin tiedostoihin, eikä palvelimella pyöri mitään sisällöntuotantoa.
+Ratkaisu rakentuu olemassa olevan julkaisukanavan rinnalle ilman, että itse sivun sisältöä tai julkaisuprosessia tarvitsee muuttaa. Sivusto on rakennettu staattiseksi: [Jekyll](https://jekyllrb.com/)-moottori kokoaa tekstit ja asettelun. Palvelimella ei pyöri mitään sisällöntuotantoa.
 
 Esijulkaisu syntyy samasta lähdekoodista. Se on omassa haarassaan versiohallinnassa. Versiohallinnan käynnistämä automaatio julkaisee uuden version, kun sivustoon tehdään muutoksia.
 
