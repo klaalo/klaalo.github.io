@@ -252,3 +252,80 @@
   }
   // Literal.Number.Integer.Long
 }
+
+@media (prefers-color-scheme: dark) {
+  .highlight {
+    .c, .cm, .c1, .cs {
+      color: #8b949e;
+      font-style: italic;
+    }
+    .err {
+      color: #f85149;
+      background-color: transparent;
+    }
+    .k, .o, .ow, .cp, .cs, .kc, .kd, .kp, .kr {
+      color: #ff7b72;
+    }
+    .kt, .nc {
+      color: #ffa657;
+    }
+    .m, .mf, .mh, .mi, .mo, .il {
+      color: #79c0ff;
+    }
+    .s, .sb, .sc, .sd, .s2, .se, .sh, .si, .sx, .sr, .s1, .ss {
+      color: #a5d6ff;
+    }
+    .na, .no, .nv, .vc, .vg, .vi {
+      color: #79c0ff;
+    }
+    .nb {
+      color: #ffa657;
+    }
+    .ne, .nf {
+      color: #d2a8ff;
+    }
+    .nn {
+      color: #c9d1d9;
+    }
+    .nt {
+      color: #7ee787;
+    }
+    .ni {
+      color: #ffa657;
+    }
+    .gd {
+      color: #ffa198;
+      background-color: #490202;
+    }
+    .gd .x {
+      color: #ffa198;
+      background-color: #67060c;
+    }
+    .gi {
+      color: #7ee787;
+      background-color: #04260f;
+    }
+    .gi .x {
+      color: #7ee787;
+      background-color: #033a16;
+    }
+    .go {
+      color: #8b949e;
+    }
+    .gp {
+      color: #8b949e;
+    }
+    .gs {
+      font-weight: bold;
+    }
+    .gu {
+      color: #8b949e;
+    }
+    .gt {
+      color: #ff7b72;
+    }
+    .w {
+      color: #6e7681;
+    }
+  }
+}

@@ -1,0 +1,60 @@
+<script src="{{ site.baseurl }}/assets/mermaid/mermaid.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var codeBlocks = document.querySelectorAll('code.language-mermaid, .language-mermaid code, pre.language-mermaid');
+    if (!codeBlocks.length) return;
+
+    var isDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    var nodes = [];
+    codeBlocks.forEach(function (codeEl) {
+      if (!document.body.contains(codeEl)) return;
+
+      var pre = document.createElement('pre');
+      pre.className = 'mermaid';
+      var src = codeEl.textContent.trim();
+      pre.textContent = src;
+      pre.setAttribute('data-mermaid-source', src);
+
+      var container = codeEl.closest('.highlighter-rouge') || codeEl.closest('pre') || codeEl.closest('.language-mermaid') || codeEl;
+      container.replaceWith(pre);
+      nodes.push(pre);
+    });
+
+    function renderMermaid(dark) {
+      if (!window.mermaid || !nodes.length) return;
+      mermaid.initialize({
+        startOnLoad: false,
+        securityLevel: 'strict',
+        theme: dark ? 'dark' : 'default',
+        fontFamily: "'Fira Sans', -apple-system, BlinkMacSystemFont, sans-serif"
+      });
+
+      nodes.forEach(function (node) {
+        var src = node.getAttribute('data-mermaid-source');
+        if (src) {
+          node.removeAttribute('data-processed');
+          node.innerHTML = '';
+          node.textContent = src;
+        }
+      });
+
+      mermaid.run({ nodes: nodes }).catch(function (err) {
+        console.error('Mermaid render error:', err);
+      });
+    }
+
+    renderMermaid(isDark);
+
+    if (window.matchMedia) {
+      var colorSchemeQuery = window.matchMedia('(prefers-color-scheme: dark)');
+      var handler = function (e) {
+        renderMermaid(e.matches);
+      };
+      if (colorSchemeQuery.addEventListener) {
+        colorSchemeQuery.addEventListener('change', handler);
+      } else if (colorSchemeQuery.addListener) {
+        colorSchemeQuery.addListener(handler);
+      }
+    }
+  });
+</script>
