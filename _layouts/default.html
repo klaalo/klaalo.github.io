@@ -37,6 +37,10 @@ layout: compress
 			</script>
 		{% endif %}
 
+		{% if content contains 'language-mermaid' %}
+			{% include mermaid.html %}
+		{% endif %}
+
 	</body>
 
 </html>
